@@ -48,7 +48,7 @@ const useStyles = makeStyles({
     width: 360,
     height: 320,
     //maxHeight: 400,
-    marginLeft: "10%",
+    marginLeft: "5%",
     marginTop: "2%",
   },
   
@@ -77,9 +77,9 @@ export default function Experience() {
         CS SKILLS
       </Typography>
 
-      <Grid container>
+      <Grid container spacing={2}>
 
-        <Grid item xs={4}>
+        <Grid item lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -98,7 +98,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-        <Grid item xs={4}>
+        <Grid item lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -117,7 +117,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-        <Grid item xs={4}>
+        <Grid item lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -141,9 +141,9 @@ export default function Experience() {
         CS EXPERIENCE
       </Typography>
 
-      <Grid container>
+      <Grid container spacing={2}>
 
-        <Grid item xs={4}>
+        <Grid item lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -165,7 +165,7 @@ export default function Experience() {
         </Grid>
 
 
-        <Grid item xs={4}>
+        <Grid item lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -186,7 +186,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-      <Grid item xs={4}>
+      <Grid item lg={3} md={3} sm={6} xs={12}>
         <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -207,7 +207,7 @@ export default function Experience() {
         </Card>
       </Grid>
 
-      <Grid item xs={4}>
+      <Grid item lg={3} md={3} sm={6} xs={12}>
         <Card className={classes.project}>
           <CardActionArea>
             <CardMedia

@@ -1,3 +1,9 @@
+/*
+useful links for publishing to gh pages:
+https://stackoverflow.com/questions/16316311/github-pages-and-relative-paths
+https://maximorlov.com/deploying-to-github-pages-dont-forget-to-fix-your-links/
+*/
+
 import React from 'react';
 //import {Box, Button, Grid, Typography} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
