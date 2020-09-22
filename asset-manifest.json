@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.faf0e46e.chunk.css",
-    "main.js": "/my-website/static/js/main.53afcda8.chunk.js",
-    "main.js.map": "/my-website/static/js/main.53afcda8.chunk.js.map",
-    "runtime-main.js": "/my-website/static/js/runtime-main.0cbcd75a.js",
-    "runtime-main.js.map": "/my-website/static/js/runtime-main.0cbcd75a.js.map",
-    "static/js/2.e021e6bf.chunk.js": "/my-website/static/js/2.e021e6bf.chunk.js",
-    "static/js/2.e021e6bf.chunk.js.map": "/my-website/static/js/2.e021e6bf.chunk.js.map",
-    "index.html": "/my-website/index.html",
-    "precache-manifest.038d4c2d833b471a08d823dcf92a0131.js": "/my-website/precache-manifest.038d4c2d833b471a08d823dcf92a0131.js",
-    "service-worker.js": "/my-website/service-worker.js",
-    "static/css/main.faf0e46e.chunk.css.map": "/my-website/static/css/main.faf0e46e.chunk.css.map",
-    "static/js/2.e021e6bf.chunk.js.LICENSE.txt": "/my-website/static/js/2.e021e6bf.chunk.js.LICENSE.txt",
-    "static/media/arushi.png": "/my-website/static/media/arushi.a78b8df0.png",
-    "static/media/backend.png": "/my-website/static/media/backend.6a67dd81.png",
-    "static/media/frontend.png": "/my-website/static/media/frontend.c12b0777.png",
-    "static/media/hackenger.png": "/my-website/static/media/hackenger.8615691a.png",
-    "static/media/petrlogo.png": "/my-website/static/media/petrlogo.6321195e.png",
-    "static/media/softwares.png": "/my-website/static/media/softwares.6f7d0b9b.png"
+    "main.css": "/static/css/main.faf0e46e.chunk.css",
+    "main.js": "/static/js/main.c08957a0.chunk.js",
+    "main.js.map": "/static/js/main.c08957a0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b126251.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
+    "static/js/2.e021e6bf.chunk.js": "/static/js/2.e021e6bf.chunk.js",
+    "static/js/2.e021e6bf.chunk.js.map": "/static/js/2.e021e6bf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c130c1d91820420055bb49c4bc34052a.js": "/precache-manifest.c130c1d91820420055bb49c4bc34052a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.faf0e46e.chunk.css.map": "/static/css/main.faf0e46e.chunk.css.map",
+    "static/js/2.e021e6bf.chunk.js.LICENSE.txt": "/static/js/2.e021e6bf.chunk.js.LICENSE.txt",
+    "static/media/arushi.png": "/static/media/arushi.a78b8df0.png",
+    "static/media/backend.png": "/static/media/backend.6a67dd81.png",
+    "static/media/frontend.png": "/static/media/frontend.c12b0777.png",
+    "static/media/hackenger.png": "/static/media/hackenger.8615691a.png",
+    "static/media/petrlogo.png": "/static/media/petrlogo.6321195e.png",
+    "static/media/softwares.png": "/static/media/softwares.6f7d0b9b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0cbcd75a.js",
+    "static/js/runtime-main.9b126251.js",
     "static/js/2.e021e6bf.chunk.js",
     "static/css/main.faf0e46e.chunk.css",
-    "static/js/main.53afcda8.chunk.js"
+    "static/js/main.c08957a0.chunk.js"
   ]
 }
