@@ -234,8 +234,6 @@ export default function Experience() {
         MUSIC
     </Typography>
 
-    
-      
       <MDBFooter color="purple" className={classes.copyright}>
       <div className={classes.copyright}>
         <MDBContainer fluid>
