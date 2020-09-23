@@ -233,6 +233,48 @@ export default function Experience() {
     <Typography className={classes.projIntro}>
         MUSIC
     </Typography>
+
+    <Grid container spacing={2}>
+
+        <Grid item lg={3} md={3} sm={6} xs={12}>
+          <Card className={classes.project}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={hackenger}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                PLACEHOLDER
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                PLACEHOLDER
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          </Card>
+        </Grid>
+
+        <Grid item lg={3} md={3} sm={6} xs={12}>
+          <Card className={classes.project}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={hackenger}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                PLACEHOLDER
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                PLACEHOLDER
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          </Card>
+        </Grid>
+        
+      </Grid>
       
       <MDBFooter color="purple" className={classes.copyright}>
       <div className={classes.copyright}>

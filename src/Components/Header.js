@@ -52,7 +52,7 @@ export default function Header(){
         <Menu width="15%" disableAutoFocus className={classes.burgerMenu}>
           <Button className={classes.menuItem} size="medium" onClick={() => handleClick("")}>Home</Button>
           <Button className={classes.menuItem}  size="medium" onClick={() => handleClick("about")}>About</Button>
-          <Button className={classes.menuItem} size="medium" onClick={() => handleClick("experience")}>Experience</Button>
+          <Button className={classes.menuItem} size="medium" onClick={() => handleClick("experience")}>Passions</Button>
           <Button className={classes.menuItem}  size="medium" onClick={() => handleClick("contact")}>Contact</Button>
         </Menu>
         <Grid container direction="row" justify="flex-end" alignItems="center">
