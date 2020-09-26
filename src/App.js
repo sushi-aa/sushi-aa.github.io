@@ -3,6 +3,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Experience from "./Pages/Experience";
 import Contact from "./Pages/Contact";
+import Contacted from "./Pages/Contacted";
 import {CssBaseline} from '@material-ui/core';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
@@ -23,6 +24,9 @@ function App() {
             </Route>
             <Route path="/contact">
               <Contact/>
+            </Route>
+            <Route path="/contacted">
+              <Contacted/>
             </Route>
           </Switch>
         </Router>
