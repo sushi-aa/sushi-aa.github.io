@@ -9,6 +9,8 @@ import hackenger from "../hackenger.png";
 import backend from "../backend.png";
 import frontend from "../frontend.png";
 import softwares from "../softwares.png";
+import piano from "../piano.jpeg"; 
+import voice from "../voice.jpeg";
 
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
@@ -18,7 +20,7 @@ const useStyles = makeStyles({
   copyright:
   {
     textAlign: "center",
-    marginTop: "20%",
+    marginTop: "7.5%",
     color: "white"
   },
   skills:
@@ -46,7 +48,7 @@ const useStyles = makeStyles({
   project:
   {
     width: 360,
-    height: 320,
+    height: 380,
     //maxHeight: 400,
     marginLeft: "5%",
     marginTop: "2%",
@@ -233,6 +235,56 @@ export default function Experience() {
     <Typography className={classes.projIntro}>
         MUSIC
     </Typography>
+
+    <Grid container spacing={2}>
+
+        <Grid item lg={3} md={3} sm={6} xs={12}>
+          <Card className={classes.project}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={piano}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Piano
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                I've been playing piano since I was 5 years old. As part of 
+                my interest in piano, I've attended various competitions, concerts,
+                outreach recitals, classes, and other events over the last 13+ years.
+                Throughout the years, I've gained experience playing a variety of classical
+                pieces and have built an extensive repertoire. 
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          </Card>
+        </Grid>
+
+        <Grid item lg={3} md={3} sm={6} xs={12}>
+          <Card className={classes.project}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={voice}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Voice
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Although I've been singing informally for as long as I can remember, I started
+                taking voice lessons near the end of middle school, at the recommendation
+                of my choir teacher at school. Throughout high school, I participated
+                in various concerts, workshops, competitions, and other such
+                events while learning arias and musical theatre pieces. 
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          </Card>
+        </Grid>
+
+      </Grid>
 
       <MDBFooter color="purple" className={classes.copyright}>
       <div className={classes.copyright}>

@@ -26,7 +26,7 @@ const useStyles = makeStyles({
   },
   menuItem:
   {
-    marginTop: "10%",
+    //marginTop: "10%",
     paddingLeft: "2%",
     alignItems: "left",
     '&:hover': {

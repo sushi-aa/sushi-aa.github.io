@@ -11,6 +11,13 @@ const useStyles = makeStyles({
     marginTop: "20%",
     color: "white"
   },
+  comingsoon:
+  {
+    color: "purple",
+    fontSize: 20,
+    textAlign: "center",
+    marginTop: "20%"
+  }
 });
 
 
@@ -20,6 +27,10 @@ export default function Contact() {
   return (
     <>
       <Header/>
+
+      <h1 className={classes.comingsoon}>
+        COMING SOON!
+      </h1>
 
       <MDBFooter color="purple" className={classes.copyright}>
       <div className={classes.copyright}>
