@@ -10,7 +10,10 @@ import backend from "../backend.png";
 import frontend from "../frontend.png";
 import softwares from "../softwares.png";
 import piano from "../piano.jpeg"; 
-import voice from "../voice.jpeg";
+import python from "../python.png";
+import vhdl from "../vhdl.png";
+import java from "../java.png";
+import cpp from "../cpp.png";
 
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
@@ -79,8 +82,95 @@ export default function Experience() {
         CS SKILLS
       </Typography>
 
+      
       <Grid container spacing={2}>
 
+        <Grid item lg={3} md={3} sm={6} xs={12}>
+          <Card className={classes.project}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={python}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Python
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Spent 3 quarters (1 school year) working with Python. Wrote programs and code
+                that dealt with loops, recursion, dictionaries, linked lists, binary trees, classes,
+                the pygame library, tkinter, etc. 
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          </Card>
+        </Grid>
+
+        <Grid item lg={3} md={3} sm={6} xs={12}>
+          <Card className={classes.project}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={vhdl}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                VHDL
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Worked with this hardware design language for one quarter after building 
+                foundational knowledge needed to write the code the previous quarter. Wrote 
+                programs that modeled an object locator, a selector, a vending machine (using
+                the logic of an FSM), and a low fuel detector. 
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          </Card>
+        </Grid>
+
+        <Grid item lg={3} md={3} sm={6} xs={12}>
+          <Card className={classes.project}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={java}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Java
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                First learned Java in my second year of high school, and went on to take
+                the APCS class + test the next year. Worked with loops, recursion, the Swing library,
+                sorting, objects/classes/inheritance/interfaces/abstract classes, etc. 
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          </Card>
+        </Grid>
+
+        <Grid item lg={3} md={3} sm={6} xs={12}>
+          <Card className={classes.project}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={cpp}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                C++
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Began learning C++ in the summer after my first year at UCI. Will be continuing
+                to learn about data structure implementations and analysis using C++ during my 
+                second year. 
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          </Card>
+        </Grid>
+
+      
         <Grid item lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
@@ -100,25 +190,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-        <Grid item lg={3} md={3} sm={6} xs={12}>
-          <Card className={classes.project}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image={backend}
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Backend
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Python, Java, C++, SQL, VHDL (hardware design)
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-          </Card>
-        </Grid>
-
+      
         <Grid item lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
@@ -131,7 +203,7 @@ export default function Experience() {
                 Softwares
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                VSCode, R, SublimeText, IntelliJ, PyCharm, git, familiarity with Firebase
+                VSCode, R, SublimeText, IntelliJ, PyCharm, git/version control, familiarity with Firebase
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -221,7 +293,7 @@ export default function Experience() {
                 Petr
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Along with my peers Dong Yoon Lee and John Yu, created a website similar to Tinder but 
+                Along with two of my peers, created a website similar to Tinder but 
                 for people's pets. Used Postgres SQL, React, and Material UI to create pages for users to
                 login, signup, create a profile for their pet, and start "matching" with other pets.
               </Typography>
@@ -266,7 +338,7 @@ export default function Experience() {
           <CardActionArea>
             <CardMedia
               className={classes.media}
-              image={voice}
+              image="https://www.musicnotes.com/images/productimages/mtd/MN0150775.gif"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">

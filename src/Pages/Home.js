@@ -4,6 +4,14 @@ https://stackoverflow.com/questions/16316311/github-pages-and-relative-paths
 https://maximorlov.com/deploying-to-github-pages-dont-forget-to-fix-your-links/
 */
 
+//make separate cards in experience for python, java, c++, vhdl
+//add a category for fun/activities for pictures, skating, etc
+//add organizations/clubs in the experience page?
+
+//https://github.com/brillout/awesome-react-components
+//https://js.devexpress.com/Demos/WidgetsGallery/Demo/Popup/Overview/React/Light/
+
+
 import React from 'react';
 //import {Box, Button, Grid, Typography} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
@@ -61,7 +69,6 @@ export default function Home() {
           steps={[
             'a CSE major. ', 2000,
             'a UCI student. ', 2000,
-            'an only child. ', 2000,
             'a musician. ', 2000,
             'a coding enthusiast. ', 2000,
             'a deeply determined individual. ', 2000,
