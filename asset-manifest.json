@@ -1,30 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.0536b41b.chunk.css",
-    "main.js": "/static/js/main.f7c517fc.chunk.js",
-    "main.js.map": "/static/js/main.f7c517fc.chunk.js.map",
+    "main.css": "/static/css/main.85a19f14.chunk.css",
+    "main.js": "/static/js/main.8d2422d3.chunk.js",
+    "main.js.map": "/static/js/main.8d2422d3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b126251.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
-    "static/js/2.6f3fd8bd.chunk.js": "/static/js/2.6f3fd8bd.chunk.js",
-    "static/js/2.6f3fd8bd.chunk.js.map": "/static/js/2.6f3fd8bd.chunk.js.map",
+    "static/js/2.b6d28d28.chunk.js": "/static/js/2.b6d28d28.chunk.js",
+    "static/js/2.b6d28d28.chunk.js.map": "/static/js/2.b6d28d28.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5d8ad0223f4f97436d0841733e44f079.js": "/precache-manifest.5d8ad0223f4f97436d0841733e44f079.js",
+    "precache-manifest.19f5128c6d92aa1fdc77b899a82ab830.js": "/precache-manifest.19f5128c6d92aa1fdc77b899a82ab830.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0536b41b.chunk.css.map": "/static/css/main.0536b41b.chunk.css.map",
-    "static/js/2.6f3fd8bd.chunk.js.LICENSE.txt": "/static/js/2.6f3fd8bd.chunk.js.LICENSE.txt",
+    "static/css/main.85a19f14.chunk.css.map": "/static/css/main.85a19f14.chunk.css.map",
+    "static/js/2.b6d28d28.chunk.js.LICENSE.txt": "/static/js/2.b6d28d28.chunk.js.LICENSE.txt",
     "static/media/arushi.png": "/static/media/arushi.a78b8df0.png",
     "static/media/backend.png": "/static/media/backend.6a67dd81.png",
+    "static/media/cpp.png": "/static/media/cpp.fcad0d67.png",
     "static/media/frontend.png": "/static/media/frontend.c12b0777.png",
     "static/media/hackenger.png": "/static/media/hackenger.8615691a.png",
+    "static/media/java.png": "/static/media/java.d413b203.png",
     "static/media/petrlogo.png": "/static/media/petrlogo.6321195e.png",
     "static/media/piano.jpeg": "/static/media/piano.4e4c500f.jpeg",
+    "static/media/python.png": "/static/media/python.b1639bd1.png",
     "static/media/softwares.png": "/static/media/softwares.6f7d0b9b.png",
-    "static/media/voice.jpeg": "/static/media/voice.eacf8b52.jpeg"
+    "static/media/vhdl.png": "/static/media/vhdl.5d4efe1e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9b126251.js",
-    "static/js/2.6f3fd8bd.chunk.js",
-    "static/css/main.0536b41b.chunk.css",
-    "static/js/main.f7c517fc.chunk.js"
+    "static/js/2.b6d28d28.chunk.js",
+    "static/css/main.85a19f14.chunk.css",
+    "static/js/main.8d2422d3.chunk.js"
   ]
 }
