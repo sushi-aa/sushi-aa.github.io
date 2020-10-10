@@ -1,6 +1,7 @@
 import React from 'react';
 //import {Box, Button, Grid, Avatar, Typography} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
+import { useTheme } from '@material-ui/core/styles';
 import {Card, Typography, Button, Grid, Box, Avatar} from "@material-ui/core";
 import Header from "../Components/Header";
 import { MDBContainer, MDBFooter } from "mdbreact";
@@ -19,7 +20,18 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
+  breakpoints:
+  {
+      ss: 0,
+      xs: 600,
+      sm: 900,
+      sm2: 1000,
+      sm3: 1100,
+      md: 1280,
+      lg: 1450,
+      xl: 1920,
+  },
   copyright:
   {
     textAlign: "center",
@@ -50,8 +62,8 @@ const useStyles = makeStyles({
   },
   project:
   {
-    width: 300,
-    height: 380,
+    width: 275,
+    height: 400,
     //maxHeight: 400,
     marginLeft: "5%",
     marginTop: "2%",
@@ -69,11 +81,12 @@ const useStyles = makeStyles({
     marginTop: "2%",
     //textShadow: "text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black"
   },
-});
+}));
 
 
 export default function Experience() {
-	const classes = useStyles();
+  const classes = useStyles();
+ 
   
   return (
     <>
@@ -86,7 +99,7 @@ export default function Experience() {
       
       <Grid container spacing={2}>
 
-        <Grid item lg={3} md={3} sm={6} xs={12}>
+        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -107,7 +120,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-        <Grid item lg={3} md={3} sm={6} xs={12}>
+        <Grid item ss = {6} sm2={6} lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -129,7 +142,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-        <Grid item lg={3} md={3} sm={6} xs={12}>
+        <Grid item ss = {6} sm2={6} lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -150,7 +163,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-        <Grid item lg={3} md={3} sm={6} xs={12}>
+        <Grid item  ss = {6} sm2={6} lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -172,7 +185,7 @@ export default function Experience() {
         </Grid>
 
       
-        <Grid item lg={3} md={3} sm={6} xs={12}>
+        <Grid item ss = {6} sm2={6} lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -192,7 +205,7 @@ export default function Experience() {
         </Grid>
 
       
-        <Grid item lg={3} md={3} sm={6} xs={12}>
+        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -218,7 +231,7 @@ export default function Experience() {
 
       <Grid container spacing={2}>
 
-        <Grid item lg={3} md={3} sm={6} xs={12}>
+        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -240,7 +253,7 @@ export default function Experience() {
         </Grid>
 
 
-        <Grid item lg={3} md={3} sm={6} xs={12}>
+        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -261,7 +274,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-      <Grid item lg={3} md={3} sm={6} xs={12}>
+      <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
         <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -282,7 +295,7 @@ export default function Experience() {
         </Card>
       </Grid>
 
-      <Grid item lg={3} md={3} sm={6} xs={12}>
+      <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
         <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -311,7 +324,7 @@ export default function Experience() {
 
     <Grid container spacing={2}>
 
-        <Grid item lg={3} md={3} sm={6} xs={12}>
+        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -334,7 +347,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-        <Grid item lg={3} md={3} sm={6} xs={12}>
+        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
