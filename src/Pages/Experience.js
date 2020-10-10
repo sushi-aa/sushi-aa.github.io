@@ -50,7 +50,7 @@ const useStyles = makeStyles({
   },
   project:
   {
-    width: 360,
+    width: 300,
     height: 380,
     //maxHeight: 400,
     marginLeft: "5%",
@@ -66,8 +66,9 @@ const useStyles = makeStyles({
     color: "purple",
     fontSize: 20,
     marginLeft: "2%",
-    marginTop: "2%"
-  }
+    marginTop: "2%",
+    //textShadow: "text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black"
+  },
 });
 
 
