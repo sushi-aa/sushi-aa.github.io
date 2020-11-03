@@ -104,7 +104,7 @@ export default function About() {
         <a className={classes.icons} href="https://www.facebook.com">
           <SiFacebook size="3em" className={classes.icons}/>
         </a>
-        <a className={classes.icons} href="https://linkedin.com">
+        <a className={classes.icons} href="https://www.linkedin.com/in/arushi-arora-6874541ba/">
           <SiLinkedin size="3em" className={classes.icons}/>
         </a>
       </Grid>
