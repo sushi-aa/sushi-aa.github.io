@@ -70,6 +70,8 @@ export default function Home() {
             'a CSE major. ', 2000,
             'a UCI student. ', 2000,
             'a musician. ', 2000,
+            'passionate about technology. ', 2000,
+            'a figure skater. ', 2000,
             'a coding enthusiast. ', 2000,
             'a deeply determined individual. ', 2000,
           ]}
