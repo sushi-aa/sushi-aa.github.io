@@ -80,19 +80,16 @@ export default function About() {
             <Typography className={classes.description}>
               My name is Arushi Arora. I'm currently a 2nd year CSE student 
               at the University of California, Irvine. 
-              Other than a few CS-related languages, I speak English, Spanish, and Hindi fluently.
-              My passions are music and technology, and when I'm not coding or
+              My passions are music and technology; when I'm not coding or
               playing the piano, I can be found singing, figure skating, reading
               an intriguing novel, or simply trying to relax and enjoy some free
               time (it doesn't come often, I like to keep myself busy)! 
             </Typography>
             <Typography className={classes.description2}>
               In this website, you'll find a collection of my interests and
-              experiences. The majority of my front-end projects have been done 
-              on my own time (at hackathons, during summer, etc), while the backend projects
-              are normally related to various academic projects I've completed as part of a course. 
-              I hope you enjoy looking through this website! Feel free to check out some of my social media
-              as well through the links below. 
+              experiences. My main areas of (both CS and musical) experience are: Java, Python, C++,
+              React.js, HTML, CSS, vocal music, and piano performance. Feel free to check out
+              the rest of my website to learn more about me!
             </Typography>
          </Box>
       </Box>
