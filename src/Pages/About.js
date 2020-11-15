@@ -89,7 +89,8 @@ export default function About() {
               In this website, you'll find a collection of my interests and
               experiences. My main areas of (both CS and musical) experience are: Java, Python, C++,
               React.js, HTML, CSS, vocal music, and piano performance. Feel free to check out
-              the rest of my website to learn more about me!
+              the rest of my website to learn more about me. This website is currently a work in progress,
+              so more details and sections will be added soon!
             </Typography>
          </Box>
       </Box>

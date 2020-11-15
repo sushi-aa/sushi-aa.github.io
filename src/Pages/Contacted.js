@@ -55,7 +55,7 @@ export default function Contacted() {
             <Header/>
 
             <Typography class={classes.thanks}>
-                COMING SOON, THIS HAS NOT BEEN IMPLEMENTED COMPLETELY YET.
+                COMING SOON, THIS HAS NOT BEEN IMPLEMENTED COMPLETELY YET (WORK IN PROGRESS).
             </Typography>
 
             <Typography class={classes.theRest}>
@@ -69,7 +69,7 @@ export default function Contacted() {
                 <a className={classes.icons} href="https://www.facebook.com">
                     <SiFacebook size="3em" className={classes.icons}/>
                 </a>
-                <a className={classes.icons} href="https://linkedin.com">
+                <a className={classes.icons} href="https://www.linkedin.com/in/arushi-arora-6874541ba/">
                     <SiLinkedin size="3em" className={classes.icons}/>
                 </a>
             </Grid>
