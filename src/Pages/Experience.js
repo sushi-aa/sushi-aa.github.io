@@ -70,7 +70,7 @@ const useStyles = makeStyles((theme) => ({
   {
     //textAlign: "center",
     //background: "#333",
-    color: "gold",
+    color: "purple",
     display: "flex",
     size: "200px",
     float: "right",
@@ -130,7 +130,7 @@ export default function Experience() {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Programming Languages
+                Backend
               </Typography>
               
               <Typography className={classes.starsUsed}> ★★★★ </Typography>
@@ -145,6 +145,34 @@ export default function Experience() {
               <Typography> Matlab </Typography>
               <Typography className={classes.starsUsed}> ★★ </Typography>
               <Typography> R </Typography>
+
+            </CardContent>
+          </CardActionArea>
+          </Card>
+        </Grid>
+      
+        <Grid item lg={3} md={4} sm={6} xs={12}>
+          <Card className={classes.skillrate}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={frontend}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Frontend
+              </Typography>
+             
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> HTML </Typography>
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> CSS </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> Javascript </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> React.js </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> MaterialUI </Typography>
 
             </CardContent>
           </CardActionArea>
@@ -179,35 +207,6 @@ export default function Experience() {
           </CardActionArea>
           </Card>
         </Grid>
-      
-        <Grid item lg={3} md={4} sm={6} xs={12}>
-          <Card className={classes.skillrate}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image={frontend}
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Frontend
-              </Typography>
-             
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
-              <Typography> HTML </Typography>
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
-              <Typography> CSS </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
-              <Typography> Javascript </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
-              <Typography> React.js </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
-              <Typography> MaterialUI </Typography>
-
-            </CardContent>
-          </CardActionArea>
-          </Card>
-        </Grid>
-
       
         <Grid item lg={3} md={4} sm={6} xs={12}>
           <Card className={classes.skillrate}>
