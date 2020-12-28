@@ -1,8 +1,6 @@
 import React from 'react';
-//import {Box, Button, Grid, Avatar, Typography} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
-import { useTheme } from '@material-ui/core/styles';
-import {Card, Typography, Button, Grid, Box, Avatar} from "@material-ui/core";
+import {Card, Typography, Grid} from "@material-ui/core";
 import Header from "../Components/Header";
 import { MDBContainer, MDBFooter } from "mdbreact";
 import petrlogo from "../petrlogo.png";
@@ -13,8 +11,7 @@ import softwares from "../softwares.png";
 import piano from "../piano.jpeg"; 
 import python from "../python.png";
 import vhdl from "../vhdl.png";
-import java from "../java.png";
-import cpp from "../cpp.png";
+
 
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
