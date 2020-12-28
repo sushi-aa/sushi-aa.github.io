@@ -21,17 +21,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 
 const useStyles = makeStyles((theme) => ({
-  breakpoints:
-  {
-      ss: 0,
-      xs: 600,
-      sm: 900,
-      sm2: 1000,
-      sm3: 1100,
-      md: 1280,
-      lg: 1450,
-      xl: 1920,
-  },
+  
   copyright:
   {
     textAlign: "center",
@@ -60,6 +50,13 @@ const useStyles = makeStyles((theme) => ({
     color: "purple",
     marginLeft: "80%"
   },
+  skillrate:
+  {
+    width: 275,
+    height: 400,
+    marginLeft: "5%",
+    marginTop: "2%",
+  },
   project:
   {
     width: 275,
@@ -68,19 +65,47 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "5%",
     marginTop: "2%",
   },
-  
   media:
   {
     height: 140
   },
+  starsUsed:
+  {
+    //textAlign: "center",
+    //background: "#333",
+    color: "gold",
+    display: "flex",
+    size: "200px",
+    float: "right",
+    marginRight: "-12%",
+    width: "50%"
+    //height: "100vh",
+  },
+  skillGrid:
+  {
+    alignContent: "center"
+  },
   projIntro:
   {
     color: "gold",
-    fontSize: 20,
+    fontSize: 30,
     marginLeft: "2%",
     marginTop: "2%",
+    fontFamily: "Playfair Display",
+    //textAlign: "center"
+  },
+
+  projIntro2:
+  {
+    color: "gold",
+    fontSize: 30,
+    marginLeft: "2%",
+    marginTop: "5%",
+    fontFamily: "Playfair Display",
+    //textAlign: "center"
     //textShadow: "text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black"
   },
+
 }));
 
 
@@ -97,10 +122,10 @@ export default function Experience() {
       </Typography>
 
       
-      <Grid container spacing={2}>
+      <Grid className={classes.skillGrid} container spacing={2}>
 
-        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
-          <Card className={classes.project}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
+          <Card className={classes.skillrate}>
           <CardActionArea>
             <CardMedia
               className={classes.media}
@@ -108,20 +133,29 @@ export default function Experience() {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Python
+                Programming Languages
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Spent 3 quarters (1 school year) working with Python. Wrote programs and code
-                that dealt with loops, recursion, dictionaries, linked lists, binary trees, classes,
-                the pygame library, tkinter, etc. 
-              </Typography>
+              
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> Java </Typography>
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> Python </Typography>
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> C++ </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> VHDL </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> Matlab </Typography>
+              <Typography className={classes.starsUsed}> ★★ </Typography>
+              <Typography> R </Typography>
+
             </CardContent>
           </CardActionArea>
           </Card>
         </Grid>
 
-        <Grid item ss = {6} sm2={6} lg={3} md={3} sm={6} xs={12}>
-          <Card className={classes.project}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
+          <Card className={classes.skillrate}>
           <CardActionArea>
             <CardMedia
               className={classes.media}
@@ -129,64 +163,28 @@ export default function Experience() {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                VHDL
+                Concepts
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Worked with this hardware design language for one quarter after building 
-                foundational knowledge needed to write the code the previous quarter. Wrote 
-                programs that modeled an object locator, a selector, a vending machine (using
-                the logic of an FSM), and a low fuel detector. 
-              </Typography>
+
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> OOP </Typography>
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> Data Structures </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> Algorithms </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> Machine Learning </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> Recursion </Typography>
+              
+              
             </CardContent>
           </CardActionArea>
           </Card>
         </Grid>
-
-        <Grid item ss = {6} sm2={6} lg={3} md={3} sm={6} xs={12}>
-          <Card className={classes.project}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image={java}
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Java
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                First learned Java in my second year of high school, and went on to take
-                the APCS class + test the next year. Worked with loops, recursion, the Swing library,
-                sorting, objects/classes/inheritance/interfaces/abstract classes, etc. 
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-          </Card>
-        </Grid>
-
-        <Grid item  ss = {6} sm2={6} lg={3} md={3} sm={6} xs={12}>
-          <Card className={classes.project}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image={cpp}
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                C++
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Began learning C++ in the summer after my first year at UCI. Will be continuing
-                to learn about data structure implementations and analysis using C++ during my 
-                second year. 
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-          </Card>
-        </Grid>
-
       
-        <Grid item ss = {6} sm2={6} lg={3} md={3} sm={6} xs={12}>
-          <Card className={classes.project}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
+          <Card className={classes.skillrate}>
           <CardActionArea>
             <CardMedia
               className={classes.media}
@@ -196,17 +194,26 @@ export default function Experience() {
               <Typography gutterBottom variant="h5" component="h2">
                 Frontend
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                React.js, Node.js, HTML, CSS, Javascript, MaterialUI
-              </Typography>
+             
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> HTML </Typography>
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> CSS </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> Javascript </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> React.js </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> MaterialUI </Typography>
+
             </CardContent>
           </CardActionArea>
           </Card>
         </Grid>
 
       
-        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
-          <Card className={classes.project}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
+          <Card className={classes.skillrate}>
           <CardActionArea>
             <CardMedia
               className={classes.media}
@@ -214,24 +221,37 @@ export default function Experience() {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Softwares
+                IDEs and Tools
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                VSCode, R, SublimeText, IntelliJ, PyCharm, git/version control, familiarity with Firebase
-              </Typography>
+
+              <Typography className={classes.starsUsed}> ★★★★★ </Typography>
+              <Typography> VSCode </Typography>
+              <Typography className={classes.starsUsed}> ★★★★★ </Typography>
+              <Typography> Sublime Text </Typography>
+              <Typography className={classes.starsUsed}> ★★★★★ </Typography>
+              <Typography> PyCharm </Typography>
+              <Typography className={classes.starsUsed}> ★★★★★ </Typography>
+              <Typography> IntelliJ </Typography>
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> Eclipse </Typography>
+              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography> Github/git </Typography>
+              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography> Vivado </Typography>
+              
             </CardContent>
           </CardActionArea>
           </Card>
         </Grid>
       </Grid> 
 
-      <Typography className={classes.projIntro}>
+      <Typography className={classes.projIntro2}>
         CS EXPERIENCE
       </Typography>
 
       <Grid container spacing={2}>
 
-        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -253,7 +273,7 @@ export default function Experience() {
         </Grid>
 
 
-        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -274,7 +294,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-      <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
+      <Grid item lg={3} md={4} sm={6} xs={12}>
         <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -295,7 +315,7 @@ export default function Experience() {
         </Card>
       </Grid>
 
-      <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
+      <Grid item lg={3} md={4} sm={6} xs={12}>
         <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -324,7 +344,7 @@ export default function Experience() {
 
     <Grid container spacing={2}>
 
-        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
@@ -347,7 +367,7 @@ export default function Experience() {
           </Card>
         </Grid>
 
-        <Grid item ss={6} sm2={6} lg={3} md={3} sm={6} xs={12}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
           <Card className={classes.project}>
           <CardActionArea>
             <CardMedia
