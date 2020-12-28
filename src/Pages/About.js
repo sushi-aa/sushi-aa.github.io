@@ -28,11 +28,12 @@ const useStyles = makeStyles({
     aa:
     {
       fontSize: 40,
-      color: "purple",
+      color: "gold",
       fontFamily: "Playfair Display",
     },
     description:
     {
+      color: "white",
       fontSize: 20,
       fontFamily: "Playfair Display",
       //textAlign: "center"
@@ -43,6 +44,7 @@ const useStyles = makeStyles({
     },
     description2:
     {
+      color: "white",
       fontSize: 20,
       fontFamily: "Playfair Display",
       marginTop: "2%",
@@ -53,7 +55,7 @@ const useStyles = makeStyles({
     },
     icons:
     {
-      color: "purple",
+      color: "gold",
       //size: "5em",
       '&:hover':
       {

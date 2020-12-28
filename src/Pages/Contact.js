@@ -20,6 +20,14 @@ const useStyles = makeStyles({
     fontSize: 20,
     textAlign: "center",
     marginTop: "20%"
+  },
+  btn:
+  {
+    '&:hover':
+    {
+      color: "gold"
+    }
+
   }
 });
 
@@ -57,7 +65,7 @@ export default function Contact() {
         <Button onClick={() => handleClick("contacted")} class="btn">SEND</Button>
       </div>
 
-      <MDBFooter color="purple" className={classes.copyright}>
+      <MDBFooter color="white" className={classes.copyright}>
       <div className={classes.copyright}>
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright: Arushi Arora

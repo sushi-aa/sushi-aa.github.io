@@ -8,7 +8,7 @@ const useStyles = makeStyles({
 
     thanks:
     {
-        color: "purple",
+        color: "gold",
         marginTop: "15%",
         fontFamily: "Playfair Display",
         fontSize: 30,
@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     },
     theRest:
     {
-        color: "black",
+        color: "white",
         marginTop: "3%",
         fontFamily: "Playfair Display",
         fontSize: 20,
@@ -24,7 +24,7 @@ const useStyles = makeStyles({
     },
     theRest2:
     {
-        color: "black",
+        color: "white",
         marginTop: "1%",
         fontFamily: "Playfair Display",
         fontSize: 20,
@@ -36,7 +36,7 @@ const useStyles = makeStyles({
     },
     icons:
     {
-      color: "purple",
+      color: "gold",
       '&:hover':
       {
         opacity: "0.9",

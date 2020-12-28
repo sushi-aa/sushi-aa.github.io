@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Grid, Button, Avatar,} from "@material-ui/core";
+import {Box, Grid, Button, Avatar, withTheme,} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 //import petrlogo from "../petrlogo.png";
 import { useHistory } from "react-router-dom";
@@ -18,6 +18,7 @@ const useStyles = makeStyles({
     //border: 0,
     //borderRadius: 3,
     //marginTop: -120,
+    color: "white",
     '&:hover': {
       opacity: "0.8",
       background: "#ffffff",

@@ -75,7 +75,7 @@ const useStyles = makeStyles((theme) => ({
   },
   projIntro:
   {
-    color: "purple",
+    color: "gold",
     fontSize: 20,
     marginLeft: "2%",
     marginTop: "2%",

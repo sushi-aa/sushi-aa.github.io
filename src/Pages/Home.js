@@ -31,18 +31,20 @@ const useStyles = makeStyles({
   
   myName:
   {
-    fontSize: 75,
+    fontSize: 90,
+    color: "white",
     textAlign: "center",
     marginTop: "17%",
     fontFamily: 'Graduate',
     '&:hover': {
-      color: "purple",
-      fontSize: 77
+      color: "gold",
+      fontSize: 95
     }
   },
   
   describe:
   {
+    color: "white",
     fontSize: 30,
     textAlign: "center",
     marginTop: "2%",
