@@ -3,6 +3,7 @@ import {Box, Avatar, Typography, Grid} from "@material-ui/core";
 import {makeStyles,} from "@material-ui/core/styles";
 import Header from "../Components/Header";
 import arushi from "../arushi.png";
+//import arushi from "../arushi.jpeg";
 import { MDBContainer, MDBFooter } from "mdbreact";
 import {SiGithub, SiLinkedin, SiFacebook} from "react-icons/si";
 
@@ -51,6 +52,7 @@ const useStyles = makeStyles({
     },
     social:
     {
+      marginTop: "-3.5%",
       marginLeft: "22%",
     },
     icons:
@@ -60,7 +62,7 @@ const useStyles = makeStyles({
       '&:hover':
       {
         opacity: "0.9",
-        transitionDuration: "0.3s",
+        transitionDuration: "0.1s",
         color: "white",
       },
       marginRight: "4%",

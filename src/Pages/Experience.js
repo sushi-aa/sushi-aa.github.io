@@ -133,17 +133,17 @@ export default function Experience() {
                 Backend
               </Typography>
               
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
               <Typography> Java </Typography>
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
               <Typography> Python </Typography>
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
               <Typography> C++ </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
               <Typography> VHDL </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
               <Typography> Matlab </Typography>
-              <Typography className={classes.starsUsed}> ★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿ </Typography>
               <Typography> R </Typography>
 
             </CardContent>
@@ -163,15 +163,15 @@ export default function Experience() {
                 Frontend
               </Typography>
              
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
               <Typography> HTML </Typography>
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
               <Typography> CSS </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
               <Typography> Javascript </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
               <Typography> React.js </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
               <Typography> MaterialUI </Typography>
 
             </CardContent>
@@ -191,15 +191,15 @@ export default function Experience() {
                 Concepts
               </Typography>
 
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
               <Typography> OOP </Typography>
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
               <Typography> Data Structures </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
               <Typography> Algorithms </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
               <Typography> Machine Learning </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
               <Typography> Recursion </Typography>
               
               
@@ -220,19 +220,19 @@ export default function Experience() {
                 IDEs and Tools
               </Typography>
 
-              <Typography className={classes.starsUsed}> ★★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿✿ </Typography>
               <Typography> VSCode </Typography>
-              <Typography className={classes.starsUsed}> ★★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿✿ </Typography>
               <Typography> Sublime Text </Typography>
-              <Typography className={classes.starsUsed}> ★★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿✿ </Typography>
               <Typography> PyCharm </Typography>
-              <Typography className={classes.starsUsed}> ★★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿✿ </Typography>
               <Typography> IntelliJ </Typography>
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
               <Typography> Eclipse </Typography>
-              <Typography className={classes.starsUsed}> ★★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
               <Typography> Github/git </Typography>
-              <Typography className={classes.starsUsed}> ★★★ </Typography>
+              <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
               <Typography> Vivado </Typography>
               
             </CardContent>
