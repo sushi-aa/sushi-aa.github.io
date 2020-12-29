@@ -52,7 +52,7 @@ const useStyles = makeStyles({
     },
     social:
     {
-      marginTop: "-3.5%",
+      
       marginLeft: "22%",
     },
     icons:
