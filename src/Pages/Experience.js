@@ -53,11 +53,15 @@ const useStyles = makeStyles((theme) => ({
     height: 400,
     marginLeft: "5%",
     marginTop: "2%",
+    backgroundColor: "black",
+    borderColor: "gold",
   },
   project:
   {
     width: 275,
     height: 400,
+    backgroundColor: "black",
+    borderColor: "gold",
     //maxHeight: 400,
     marginLeft: "5%",
     marginTop: "2%",
@@ -70,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
   {
     //textAlign: "center",
     //background: "#333",
-    color: "purple",
+    color: "gold",
     display: "flex",
     size: "200px",
     float: "right",
@@ -91,7 +95,10 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "Playfair Display",
     //textAlign: "center"
   },
-
+  d1:
+  {
+    color: "white"
+  },
   projIntro2:
   {
     color: "gold",
@@ -122,8 +129,8 @@ export default function Experience() {
       <Grid className={classes.skillGrid} container spacing={2}>
 
         <Grid item lg={3} md={4} sm={6} xs={12}>
-          <Card className={classes.skillrate}>
-          <CardActionArea>
+          <Card className={classes.skillrate} variant="outlined">
+          
             <CardMedia
               className={classes.media}
               image={python}
@@ -134,26 +141,26 @@ export default function Experience() {
               </Typography>
               
               <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
-              <Typography> Java </Typography>
+              <Typography className={classes.d1}> Java </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
-              <Typography> Python </Typography>
+              <Typography className={classes.d1}> Python </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
-              <Typography> C++ </Typography>
+              <Typography className={classes.d1}> C++ </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
-              <Typography> VHDL </Typography>
+              <Typography className={classes.d1}> VHDL </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
-              <Typography> Matlab </Typography>
+              <Typography className={classes.d1}> Matlab </Typography>
               <Typography className={classes.starsUsed}> ✿✿ </Typography>
-              <Typography> R </Typography>
+              <Typography className={classes.d1}> R </Typography>
 
             </CardContent>
-          </CardActionArea>
+          
           </Card>
         </Grid>
       
         <Grid item lg={3} md={4} sm={6} xs={12}>
-          <Card className={classes.skillrate}>
-          <CardActionArea>
+          <Card className={classes.skillrate} variant="outlined">
+          
             <CardMedia
               className={classes.media}
               image={frontend}
@@ -164,24 +171,24 @@ export default function Experience() {
               </Typography>
              
               <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
-              <Typography> HTML </Typography>
+              <Typography className={classes.d1}> HTML </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
-              <Typography> CSS </Typography>
+              <Typography className={classes.d1}> CSS </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
-              <Typography> Javascript </Typography>
+              <Typography className={classes.d1}> Javascript </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
-              <Typography> React.js </Typography>
+              <Typography className={classes.d1}> React.js </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
-              <Typography> MaterialUI </Typography>
+              <Typography className={classes.d1}> MaterialUI </Typography>
 
             </CardContent>
-          </CardActionArea>
+          
           </Card>
         </Grid>
 
         <Grid item lg={3} md={4} sm={6} xs={12}>
-          <Card className={classes.skillrate}>
-          <CardActionArea>
+          <Card className={classes.skillrate} variant="outlined">
+          
             <CardMedia
               className={classes.media}
               image={vhdl}
@@ -192,25 +199,25 @@ export default function Experience() {
               </Typography>
 
               <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
-              <Typography> OOP </Typography>
+              <Typography className={classes.d1}> OOP </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
-              <Typography> Data Structures </Typography>
+              <Typography className={classes.d1}> Data Structures </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
-              <Typography> Algorithms </Typography>
+              <Typography className={classes.d1}> Algorithms </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
-              <Typography> Machine Learning </Typography>
+              <Typography className={classes.d1}> Machine Learning </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
-              <Typography> Recursion </Typography>
+              <Typography className={classes.d1}> Recursion </Typography>
               
               
             </CardContent>
-          </CardActionArea>
+          
           </Card>
         </Grid>
       
         <Grid item lg={3} md={4} sm={6} xs={12}>
-          <Card className={classes.skillrate}>
-          <CardActionArea>
+          <Card className={classes.skillrate} variant="outlined">
+          
             <CardMedia
               className={classes.media}
               image={softwares}
@@ -221,22 +228,22 @@ export default function Experience() {
               </Typography>
 
               <Typography className={classes.starsUsed}> ✿✿✿✿✿ </Typography>
-              <Typography> VSCode </Typography>
+              <Typography className={classes.d1}> VSCode </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿✿✿ </Typography>
-              <Typography> Sublime Text </Typography>
+              <Typography className={classes.d1}> Sublime Text </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿✿✿ </Typography>
-              <Typography> PyCharm </Typography>
+              <Typography className={classes.d1}> PyCharm </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿✿✿ </Typography>
-              <Typography> IntelliJ </Typography>
+              <Typography className={classes.d1}> IntelliJ </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
-              <Typography> Eclipse </Typography>
+              <Typography className={classes.d1}> Eclipse </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿✿ </Typography>
-              <Typography> Github/git </Typography>
+              <Typography className={classes.d1}> Github/git </Typography>
               <Typography className={classes.starsUsed}> ✿✿✿ </Typography>
-              <Typography> Vivado </Typography>
+              <Typography className={classes.d1}> Vivado </Typography>
               
             </CardContent>
-          </CardActionArea>
+          
           </Card>
         </Grid>
       </Grid> 
@@ -248,87 +255,87 @@ export default function Experience() {
       <Grid container spacing={2}>
 
         <Grid item lg={3} md={4} sm={6} xs={12}>
-          <Card className={classes.project}>
-          <CardActionArea>
+          <Card className={classes.project} variant="outlined">
+          
             <CardMedia
               className={classes.media}
               image={hackenger}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography className={classes.d1} gutterBottom variant="h5" component="h2">
                 Hackenger
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
                 Collaborated with a team of 4 to build a messaging app, similar to iMessage, 
                 during the hackathon ZotHacks organized by HackUCI. Utilized MongoDB, Postman,
                 React/Node, HTML/CSS. 
               </Typography>
             </CardContent>
-          </CardActionArea>
+         
           </Card>
         </Grid>
 
 
         <Grid item lg={3} md={4} sm={6} xs={12}>
-          <Card className={classes.project}>
-          <CardActionArea>
+          <Card className={classes.project} variant="outlined">
+          
             <CardMedia
               className={classes.media}
               image="https://m.foolcdn.com/media/dubs/images/man_typing_in_code_on_laptop_GettyImages-698430.original.jpg"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography className={classes.d1} gutterBottom variant="h5" component="h2">
                 Buzzr
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
                 During RoseHacks 2020, collaborated with a team of 4 to create 
                 a women-centric website allowing women in the STEM career path to find mentors that can 
                 guide them on both an academic and personal path.
               </Typography>
             </CardContent>
-          </CardActionArea>
+         
           </Card>
         </Grid>
 
       <Grid item lg={3} md={4} sm={6} xs={12}>
-        <Card className={classes.project}>
-          <CardActionArea>
+        <Card className={classes.project} variant="outlined">
+          
             <CardMedia
               className={classes.media}
               image="https://static.idtech.com/next/assets/images/idtc-logo-with-scoop.svg"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography className={classes.d1} gutterBottom variant="h5" component="h2">
                 Online Private Instructor
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
                 As an online private instructor, tutored students ages 7-19 in Java, Python,
                 Pre-Algebra, Algebra I, Algebra II, Calculus, and Statistics. Created lesson plans,
                 developed sample code, worked through problems, and wrote post-session reports. 
               </Typography>
             </CardContent>
-          </CardActionArea>
+          
         </Card>
       </Grid>
 
       <Grid item lg={3} md={4} sm={6} xs={12}>
-        <Card className={classes.project}>
-          <CardActionArea>
+        <Card className={classes.project} variant="outlined">
+          
             <CardMedia
               className={classes.media}
               image={petrlogo}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography className={classes.d1} utterBottom variant="h5" component="h2">
                 Petr
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
                 Along with two of my peers, created a website similar to Tinder but 
                 for people's pets. Used Postgres SQL, React, and Material UI to create pages for users to
                 login, signup, create a profile for their pet, and start "matching" with other pets.
               </Typography>
             </CardContent>
-          </CardActionArea>
+         
         </Card>
       </Grid>
       
@@ -341,17 +348,17 @@ export default function Experience() {
     <Grid container spacing={2}>
 
         <Grid item lg={3} md={4} sm={6} xs={12}>
-          <Card className={classes.project}>
-          <CardActionArea>
+          <Card className={classes.project} variant="outlined">
+          
             <CardMedia
               className={classes.media}
               image={piano}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography className={classes.d1} gutterBottom variant="h5" component="h2">
                 Piano
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
                 I've been playing piano since I was 5 years old. As part of 
                 my interest in piano, I've attended various competitions, concerts,
                 outreach recitals, classes, and other events over the last 13+ years.
@@ -359,22 +366,22 @@ export default function Experience() {
                 pieces and have built an extensive repertoire. 
               </Typography>
             </CardContent>
-          </CardActionArea>
+         
           </Card>
         </Grid>
 
         <Grid item lg={3} md={4} sm={6} xs={12}>
-          <Card className={classes.project}>
-          <CardActionArea>
+          <Card className={classes.project} variant="outlined">
+          
             <CardMedia
               className={classes.media}
               image="https://www.musicnotes.com/images/productimages/mtd/MN0150775.gif"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography className={classes.d1} gutterBottom variant="h5" component="h2">
                 Voice
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
                 Although I've been singing informally for as long as I can remember, I started
                 taking voice lessons near the end of middle school, at the recommendation
                 of my choir teacher at school. Throughout high school, I participated
@@ -382,7 +389,7 @@ export default function Experience() {
                 events while learning arias and musical theatre pieces. 
               </Typography>
             </CardContent>
-          </CardActionArea>
+          
           </Card>
         </Grid>
 

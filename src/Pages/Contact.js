@@ -23,12 +23,15 @@ const useStyles = makeStyles({
   },
   btn:
   {
+    backgroundColor: "gold",
+    width: "50%",
+    cursor: "pointer",
     '&:hover':
     {
-      color: "gold"
+      backgroundColor: "#c520e6"
     }
 
-  }
+  } 
 });
 
 
@@ -62,7 +65,7 @@ export default function Contact() {
           <label>MESSAGE: </label>
           <textarea></textarea>
         </div>
-        <Button onClick={() => handleClick("contacted")} class="btn">SEND</Button>
+        <Button className={classes.btn} onClick={() => handleClick("contacted")}>SEND</Button>
       </div>
 
       <MDBFooter color="white" className={classes.copyright}>
