@@ -40,6 +40,10 @@ const useStyles = makeStyles((theme) => ({
     color: "purple",
     marginRight: "80%",
   },
+  skillTitle:
+  {
+    color: "white"
+  },
   pSkills:
   {
     fontSize: 25,
@@ -88,12 +92,11 @@ const useStyles = makeStyles((theme) => ({
   },
   projIntro:
   {
-    color: "gold",
+    color: "white",
     fontSize: 30,
     marginLeft: "2%",
     marginTop: "2%",
     fontFamily: "Playfair Display",
-    //textAlign: "center"
   },
   d1:
   {
@@ -101,7 +104,7 @@ const useStyles = makeStyles((theme) => ({
   },
   projIntro2:
   {
-    color: "gold",
+    color: "white",
     fontSize: 30,
     marginLeft: "2%",
     marginTop: "5%",
@@ -136,7 +139,7 @@ export default function Experience() {
               image={python}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography className={classes.skillTitle} gutterBottom variant="h5" component="h2">
                 Backend
               </Typography>
               
@@ -166,7 +169,7 @@ export default function Experience() {
               image={frontend}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography className={classes.skillTitle} gutterBottom variant="h5" component="h2">
                 Frontend
               </Typography>
              
@@ -194,7 +197,7 @@ export default function Experience() {
               image={vhdl}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography className={classes.skillTitle} gutterBottom variant="h5" component="h2">
                 Concepts
               </Typography>
 
@@ -223,7 +226,7 @@ export default function Experience() {
               image={softwares}
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              <Typography className={classes.skillTitle} gutterBottom variant="h5" component="h2">
                 IDEs and Tools
               </Typography>
 
@@ -341,7 +344,7 @@ export default function Experience() {
       
     </Grid>
 
-    <Typography className={classes.projIntro}>
+    <Typography className={classes.projIntro2}>
         MUSIC
     </Typography>
 
