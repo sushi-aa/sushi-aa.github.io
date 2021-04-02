@@ -12,6 +12,7 @@ import piano from "../piano.jpeg";
 import python from "../python.png";
 import vhdl from "../vhdl.png";
 import epidatalogo from "../epidatalogo.png"
+import aicps from "../aicps.png"
 
 
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -263,16 +264,16 @@ export default function Experience() {
           
             <CardMedia
               className={classes.media}
-              image={hackenger}
+              image={aicps}
             />
             <CardContent>
               <Typography className={classes.d1} gutterBottom variant="h5" component="h2">
-                Hackenger
+                AICPS
               </Typography>
               <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
-                Collaborated with a team of 4 to build a messaging app, similar to iMessage, 
-                during the hackathon ZotHacks organized by HackUCI. Utilized MongoDB, Postman,
-                React/Node, HTML/CSS. 
+                Recently began working as an undergraduate research assistant for the aritifical intelligence
+                and cyber-physical systems (AICPS) lab. Working on using machine learning and graph neural networks
+                to detect the presence of hardware trojans.  
               </Typography>
             </CardContent>
          
@@ -310,7 +311,7 @@ export default function Experience() {
             />
             <CardContent>
               <Typography className={classes.d1} gutterBottom variant="h5" component="h2">
-                Online Private Instructor
+                OPL
               </Typography>
               <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
                 As an online private instructor, tutored students ages 7-19 in Java, Python,
