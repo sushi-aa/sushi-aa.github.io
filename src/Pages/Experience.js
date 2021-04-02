@@ -11,6 +11,7 @@ import softwares from "../softwares.png";
 import piano from "../piano.jpeg"; 
 import python from "../python.png";
 import vhdl from "../vhdl.png";
+import epidatalogo from "../epidatalogo.png"
 
 
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -326,16 +327,16 @@ export default function Experience() {
           
             <CardMedia
               className={classes.media}
-              image={petrlogo}
+              image={epidatalogo}
             />
             <CardContent>
               <Typography className={classes.d1} utterBottom variant="h5" component="h2">
-                Petr
+                EpiData
               </Typography>
               <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
-                Along with two of my peers, created a website similar to Tinder but 
-                for people's pets. Used Postgres SQL, React, and Material UI to create pages for users to
-                login, signup, create a profile for their pet, and start "matching" with other pets.
+                As a software and data engineering intern at EpiData,  developed a lightweight version of an IoT platform
+                using the Play web framework and a Jupyter notebook interface. Provided a Python API for the platform using Py4J
+                and performed unit testing for ZMQ data streaming.
               </Typography>
             </CardContent>
          
