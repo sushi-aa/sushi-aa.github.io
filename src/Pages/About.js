@@ -16,9 +16,10 @@ const useStyles = makeStyles({
   },
     myPic:
     {
-      width: "25%",
-      height: "25%",
+      width: "350px",
+      height: "350px",
       marginLeft: 100,
+      //position: "relative"
     },
     profile1:
     {
