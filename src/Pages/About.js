@@ -2,7 +2,7 @@ import React from 'react';
 import {Box, Avatar, Typography, Grid} from "@material-ui/core";
 import {makeStyles,} from "@material-ui/core/styles";
 import Header from "../Components/Header";
-import arushi from "../arushi3.png";
+import arushi from "../arushi3.jpeg";
 //import arushi from "../arushi.jpeg";
 import { MDBContainer, MDBFooter } from "mdbreact";
 import {SiGithub, SiLinkedin, SiFacebook} from "react-icons/si";
