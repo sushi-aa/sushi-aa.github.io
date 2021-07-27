@@ -13,7 +13,7 @@ import python from "../python.png";
 import vhdl from "../vhdl.png";
 import epidatalogo from "../epidatalogo.png"
 import aicps from "../aicps.png"
-
+import netapp from "../netapp.jpg"
 
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
@@ -280,48 +280,47 @@ export default function Experience() {
           </Card>
         </Grid>
 
+        <Grid item lg={3} md={4} sm={6} xs={12}>
+        <Card className={classes.project} variant="outlined">
+          
+            <CardMedia
+              className={classes.media}
+              image={netapp}
+            />
+            <CardContent>
+              <Typography className={classes.d1} gutterBottom variant="h5" component="h2">
+                NetApp (SolidFire)
+              </Typography>
+              <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
+                As a software engineering intern at NetApp, contributing to Astra, a cloud 
+                data management and storage product for Kubernetes workloads. Enhancing releases
+                through bug fixes and feature additions, and using Golang, Python, GCP, Azure, Kubernetes,
+                and Docker. 
+              </Typography>
+            </CardContent>
+          
+        </Card>
+      </Grid>
 
         <Grid item lg={3} md={4} sm={6} xs={12}>
           <Card className={classes.project} variant="outlined">
           
             <CardMedia
               className={classes.media}
-              image="https://m.foolcdn.com/media/dubs/images/man_typing_in_code_on_laptop_GettyImages-698430.original.jpg"
-            />
-            <CardContent>
-              <Typography className={classes.d1} gutterBottom variant="h5" component="h2">
-                Buzzr
-              </Typography>
-              <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
-                During RoseHacks 2020, collaborated with a team of 4 to create 
-                a women-centric website allowing women in the STEM career path to find mentors that can 
-                guide them on both an academic and personal path.
-              </Typography>
-            </CardContent>
-         
-          </Card>
-        </Grid>
-
-      <Grid item lg={3} md={4} sm={6} xs={12}>
-        <Card className={classes.project} variant="outlined">
-          
-            <CardMedia
-              className={classes.media}
-              image="https://static.idtech.com/next/assets/images/idtc-logo-with-scoop.svg"
+              image="https://teenlife.s3.amazonaws.com/media/uploads/listings/id-tech-camps-held-at-parish-episcopal-school/No6X41uJVePM.png"
             />
             <CardContent>
               <Typography className={classes.d1} gutterBottom variant="h5" component="h2">
                 OPL
               </Typography>
               <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
-                As an online private instructor, tutored students ages 7-19 in Java, Python,
-                Pre-Algebra, Algebra I, Algebra II, Calculus, and Statistics. Created lesson plans,
-                developed sample code, worked through problems, and wrote post-session reports. 
+              As an online private instructor at iD Tech, tutored students ages 7-19 in Java, Python, and various mathematics courses. 
+              Created lesson plans, developed sample code, worked through problems, and wrote post-session reports. Provided over 100 personalized lessons.
               </Typography>
             </CardContent>
-          
-        </Card>
-      </Grid>
+         
+          </Card>
+        </Grid>
 
       <Grid item lg={3} md={4} sm={6} xs={12}>
         <Card className={classes.project} variant="outlined">
