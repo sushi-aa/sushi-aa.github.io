@@ -154,9 +154,9 @@ export default function Experience() {
               <Typography className={classes.starsUsed}> ★★★☆☆ </Typography>
               <Typography className={classes.d1}> VHDL </Typography>
               <Typography className={classes.starsUsed}> ★★★☆☆ </Typography>
-              <Typography className={classes.d1}> Matlab </Typography>
+              <Typography className={classes.d1}> Scala </Typography>
               <Typography className={classes.starsUsed}> ★★☆☆☆ </Typography>
-              <Typography className={classes.d1}> R </Typography>
+              <Typography className={classes.d1}> Go </Typography>
 
             </CardContent>
           
@@ -210,9 +210,11 @@ export default function Experience() {
               <Typography className={classes.starsUsed}> ★★★☆☆ </Typography>
               <Typography className={classes.d1}> Algorithms </Typography>
               <Typography className={classes.starsUsed}> ★★★☆☆ </Typography>
-              <Typography className={classes.d1}> Machine Learning </Typography>
-              <Typography className={classes.starsUsed}> ★★★☆☆ </Typography>
               <Typography className={classes.d1}> Recursion </Typography>
+              <Typography className={classes.starsUsed}> ★★★☆☆ </Typography>
+              <Typography className={classes.d1}> Testing </Typography>
+              <Typography className={classes.starsUsed}> ★★☆☆☆ </Typography>
+              <Typography className={classes.d1}> Machine Learning </Typography>
               
               
             </CardContent>
@@ -271,8 +273,8 @@ export default function Experience() {
                 AICPS
               </Typography>
               <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
-                Recently began working as an undergraduate research assistant for the aritifical intelligence
-                and cyber-physical systems (AICPS) lab. Working on using machine learning and graph neural networks
+                Recently began working as an undergraduate research assistant for the Autonomous and Intelligent
+                Cyber-Physical Systems (AICPS) lab. Working on using machine learning and graph neural networks
                 to detect the presence of hardware trojans.  
               </Typography>
             </CardContent>
@@ -292,9 +294,9 @@ export default function Experience() {
                 NetApp (SolidFire)
               </Typography>
               <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
-                As a software engineering intern at NetApp, contributing to Astra, a cloud 
+                As a software engineering intern at NetApp, contributed to project Astra, a cloud 
                 data management and storage product for Kubernetes workloads. Enhancing releases
-                through bug fixes and feature additions, and using Golang, Python, GCP, Azure, Kubernetes,
+                through bug fixes and feature additions; using Go, Python, Jira, GCP, Azure, Kubernetes,
                 and Docker. 
               </Typography>
             </CardContent>
