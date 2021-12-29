@@ -154,6 +154,8 @@ export default function Experience() {
               <Typography className={classes.starsUsed}> ★★★☆☆ </Typography>
               <Typography className={classes.d1}> VHDL </Typography>
               <Typography className={classes.starsUsed}> ★★★☆☆ </Typography>
+              <Typography className={classes.d1}> C </Typography>
+              <Typography className={classes.starsUsed}> ★★★☆☆ </Typography>
               <Typography className={classes.d1}> Scala </Typography>
               <Typography className={classes.starsUsed}> ★★☆☆☆ </Typography>
               <Typography className={classes.d1}> Go </Typography>
@@ -295,8 +297,8 @@ export default function Experience() {
               </Typography>
               <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
                 As a software engineering intern at NetApp, contributed to project Astra, a cloud 
-                data management and storage product for Kubernetes workloads. Enhancing releases
-                through bug fixes and feature additions; using Go, Python, Jira, GCP, Azure, Kubernetes,
+                data management and storage product for Kubernetes workloads. Enhanced product releases
+                through bug fixes and feature additions; utilized Go, Python, Jira, GCP, Azure, Kubernetes,
                 and Docker. 
               </Typography>
             </CardContent>
@@ -365,11 +367,10 @@ export default function Experience() {
                 Piano
               </Typography>
               <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
-                I've been playing piano since I was 5 years old. As part of 
-                my interest in piano, I've attended various competitions, concerts,
-                outreach recitals, classes, and other events over the last 13+ years.
-                Throughout the years, I've gained experience playing a variety of classical
-                pieces and have built an extensive repertoire. 
+                Have attended and participated in various competitions, concerts,
+                outreach recitals, classes, and other events over the last 15+ years.
+                Gained experience playing a variety of classical
+                pieces and built an extensive and impressive repertoire. 
               </Typography>
             </CardContent>
          
@@ -388,9 +389,9 @@ export default function Experience() {
                 Voice
               </Typography>
               <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
-                Although I've been singing informally for as long as I can remember, I started
+                Began
                 taking voice lessons near the end of middle school, at the recommendation
-                of my choir teacher at school. Throughout high school, I participated
+                of my choir teacher at school. Participated
                 in various concerts, workshops, competitions, and other such
                 events while learning arias and musical theatre pieces. 
               </Typography>
