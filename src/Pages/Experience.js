@@ -145,6 +145,7 @@ export default function Experience() {
                 Backend
               </Typography>
               
+              
               <Typography className={classes.starsUsed}> ★★★★☆ </Typography>
               <Typography className={classes.d1}> Java </Typography>
               <Typography className={classes.starsUsed}> ★★★★☆ </Typography>
@@ -159,6 +160,8 @@ export default function Experience() {
               <Typography className={classes.d1}> Scala </Typography>
               <Typography className={classes.starsUsed}> ★★☆☆☆ </Typography>
               <Typography className={classes.d1}> Go </Typography>
+              
+              
 
             </CardContent>
           
