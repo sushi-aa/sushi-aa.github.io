@@ -278,9 +278,9 @@ export default function Experience() {
                 AICPS
               </Typography>
               <Typography className={classes.d1} variant="body2" color="textSecondary" component="p">
-                Recently began working as an undergraduate research assistant for the Autonomous and Intelligent
-                Cyber-Physical Systems (AICPS) lab. Working on using machine learning and graph neural networks
-                to detect the presence of hardware trojans.  
+                Worked as an undergraduate research assistant for the Autonomous and Intelligent
+                Cyber-Physical Systems (AICPS) lab. Used machine learning and graph neural networks
+                to detect the presence of hardware trojans for security purposes.  
               </Typography>
             </CardContent>
          
