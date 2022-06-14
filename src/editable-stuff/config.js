@@ -104,6 +104,18 @@ const skills = {
     { name: "Creativity", value: 75 },
     { name: "Communication", value: 95 },
   ],
+  otherSkills: [
+    {name: "Piano", value: 95 },
+    {name: "Voice", value: 90},
+    {name: "Figure Skating", value: 70},
+    {name: "Swimming", value: 70},
+  ],
+  languageSkills: [
+    {name: "English", value: 98},
+    {name: "Spanish", value: 75},
+    {name: "Hindi", value: 80},
+    {name: "Korean", value: 25}
+  ]
 };
 
 // GET IN TOUCH SECTION
