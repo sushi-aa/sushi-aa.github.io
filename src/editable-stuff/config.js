@@ -130,11 +130,11 @@ const experiences = {
   show: true,
   heading: "Experience",
   data: [
-    /*{
+    {
       role: 'Software Engineering Intern',
       companylogo: require('../assets/img/amazon.jpg'),
       date: 'June 2022 – PRESENT',
-    },*/
+    },
     {
       role: 'Online Private Lesson Instructor',
       companylogo: require('../assets/img/idtech.jpg'),
@@ -149,11 +149,6 @@ const experiences = {
       role: 'Software Engineering Intern',
       companylogo: require('../assets/img/netapp.jpg'),
       date: 'June 2021 – September 2021',
-    },
-    {
-      role: 'Undergraduate Research Assistant',
-      companylogo: require('../assets/img/aicps.png'),
-      date: 'March 2021 – September 2021',
     },
     {
       role: 'Software & Data Engineering Intern',
