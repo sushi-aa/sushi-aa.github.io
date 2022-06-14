@@ -1,14 +1,10 @@
 {
   "name": "developers-portfolio",
-  "description": "A personal static website/portfolio template hosted with GitHub Pages.",
-  "homepage": "http://sushi-aa.github.io/home",
+  "description": "My Website",
+  "homepage": "http://sushi-aa.github.io/",
   "version": "2.0.0",
   "private": true,
-  "author": {
-    "name": "Arushi Arora",
-    "email": "arushia2@uci.edu",
-    "url": "https://github.com/sushi-aa"
-  },
+ 
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
