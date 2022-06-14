@@ -45,27 +45,7 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          {/* {
-            <Nav.Link className="nav-link lead">
-              <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
-            </Nav.Link>
-          } */}
-          {experiences.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#experiences"}
-            >
-              Experience
-            </Nav.Link>
-          )}
-          {repos.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
-            >
-              Projects
-            </Nav.Link>
-          )}
+      
           {about.show && (
             <Nav.Link
               className="nav-link lead"
@@ -74,6 +54,25 @@ const Navigation = React.forwardRef((props, ref) => {
               About
             </Nav.Link>
           )}
+
+          {experiences.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#experiences"}
+            >
+              Experience
+            </Nav.Link>
+          )}
+          
+          {repos.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#projects"}
+            >
+              Projects
+            </Nav.Link>
+          )}
+          
           {skills.show && (
             <Nav.Link
               className="nav-link lead"

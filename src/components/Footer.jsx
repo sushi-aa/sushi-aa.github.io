@@ -29,7 +29,7 @@ const Footer = (props) => {
         </a>
         <p>
           <small className="text-muted">
-            thanks!
+            the end.
           </small>
         </p>
       </Container>

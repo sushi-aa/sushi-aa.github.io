@@ -41,7 +41,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 className="border border-secondary rounded-circle"
                 src={profilePicUrl}
                 alt="profilepicture"
-                width={imgSize}
+                width="auto"
                 height={imgSize}
               />
             )}
@@ -58,7 +58,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                   target="_blank"
                   rel="noreferrer noopener"
                   role="button"
-                  aria-label="Resume/CV"
+                  //aria-label="Resume/CV"
                 >
                   Resume
                 </a>

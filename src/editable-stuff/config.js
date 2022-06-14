@@ -5,11 +5,11 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#91c9f5, #91f5ee, #ff9b11, #c977ea, #ff7f7f, #E7F1F3",
+  gradientColors: "#ED3665, #3A7BF5, #20E6A1, #D0C915, #DB2AEF, #F09E3F, #F37864",
   firstName: "Arushi",
   middleName: "",
   lastName: "Arora",
-  message: " Computer Science & Engineering @ UCI ",
+  message: " Computer Science & Engineering @ UC Irvine ",
   icons: [
     {
       image: "fa-github",
@@ -38,18 +38,14 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/arushi.jpeg"),
-  imageSize: 375,
+  imageLink: require("../editable-stuff/arushi.png"),
+  imageSize: 300,
   message:
-    "My name is Arushi Arora. I’m currently a 4th year Computer Science & Engineering major at UC Irvine. My main areas of interest are machine learning, algorithms, cloud computing, and sustainable engineering. Aside from CS, I also enjoy playing piano, singing, and figure skating. ",
+    "My name is Arushi Arora. I’m currently a 4th year Computer Science & Engineering major at UC Irvine. My main areas of interest are machine learning, algorithms, cloud computing, and sustainable engineering. Aside from CS, I enjoy playing piano, singing, and figure skating. ",
   resume: "",
 };
 
-// PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
+
 const repos = {
   show: true,
   heading: "Recent Projects",
@@ -122,40 +118,40 @@ const experiences = {
   show: true,
   heading: "Experience",
   data: [
-    {
+    /*{
       role: 'Software Engineering Intern',
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: require('../assets/img/amazon.jpg'),
       date: 'June 2022 – PRESENT',
-    },
+    },*/
     {
-      role: 'Undergraduate Reader',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'March 2022 – PRESENT',
+      role: 'Online Private Lesson Instructor',
+      companylogo: require('../assets/img/idtech.jpg'),
+      date: 'June 2020 – June 2021',
     },
     {
       role: 'Undergraduate Research Assistant',
-      companylogo: require('../assets/img/boeing.png'),
+      companylogo: require('../assets/img/uci.jpg'),
       date: 'March 2022 – PRESENT',
     },
     {
       role: 'Software Engineering Intern',
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: require('../assets/img/netapp.jpg'),
       date: 'June 2021 – September 2021',
     },
     {
       role: 'Undergraduate Research Assistant',
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: require('../assets/img/aicps.png'),
       date: 'March 2021 – September 2021',
     },
     {
       role: 'Software & Data Engineering Intern',
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: require('../assets/img/epidata.jpg'),
       date: 'February 2021 – May 2021',
     },
     {
-      role: 'Online Private Lesson Instructor',
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2020 – June 2021',
+      role: 'Undergraduate Reader',
+      companylogo: require('../assets/img/uci.jpg'),
+      date: 'March 2022 – PRESENT',
     },
     
   ]
