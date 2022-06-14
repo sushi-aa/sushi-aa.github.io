@@ -106,14 +106,14 @@ const skills = {
   ],
   otherSkills: [
     {name: "Piano", value: 95 },
-    {name: "Voice", value: 90},
+    {name: "Voice", value: 95},
     {name: "Figure Skating", value: 70},
     {name: "Swimming", value: 70},
   ],
   languageSkills: [
-    {name: "English", value: 98},
+    {name: "English", value: 100},
     {name: "Spanish", value: 75},
-    {name: "Hindi", value: 80},
+    {name: "Hindi", value: 98},
     {name: "Korean", value: 25}
   ]
 };
@@ -143,7 +143,7 @@ const experiences = {
     {
       role: 'Undergraduate Research Assistant',
       companylogo: require('../assets/img/uci.jpg'),
-      date: 'March 2022 – PRESENT',
+      date: 'March 2021 – PRESENT',
     },
     {
       role: 'Software Engineering Intern',
