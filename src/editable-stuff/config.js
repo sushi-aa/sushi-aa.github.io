@@ -131,7 +131,7 @@ const experiences = {
   heading: "Experience",
   data: [
     {
-      role: 'Software Engineering Intern',
+      role: 'Software Development Engineering Intern',
       companylogo: require('../assets/img/amazon.jpg'),
       date: 'June 2022 – PRESENT',
     },
