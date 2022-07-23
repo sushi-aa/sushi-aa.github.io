@@ -131,19 +131,19 @@ const experiences = {
   heading: "Experience",
   data: [
     {
-      role: 'Software Development Engineering Intern',
-      companylogo: require('../assets/img/amazon.jpg'),
-      date: 'June 2022 – PRESENT',
-    },
-    {
-      role: 'Online Private Lesson Instructor',
-      companylogo: require('../assets/img/idtech.jpg'),
-      date: 'June 2020 – June 2021',
-    },
-    {
       role: 'Undergraduate Research Assistant',
       companylogo: require('../assets/img/uci.jpg'),
       date: 'March 2021 – PRESENT',
+    },
+    {
+      role: 'Undergraduate Reader',
+      companylogo: require('../assets/img/uci.jpg'),
+      date: 'March 2022 – PRESENT',
+    },
+    {
+      role: 'Software Development Engineering Intern',
+      companylogo: require('../assets/img/amazon.png'),
+      date: 'June 2022 – PRESENT',
     },
     {
       role: 'Software Engineering Intern',
@@ -151,16 +151,15 @@ const experiences = {
       date: 'June 2021 – September 2021',
     },
     {
+      role: 'Online Private Lesson Instructor',
+      companylogo: require('../assets/img/idtech.jpg'),
+      date: 'June 2020 – June 2021',
+    },
+    {
       role: 'Software & Data Engineering Intern',
       companylogo: require('../assets/img/epidata.jpg'),
       date: 'February 2021 – May 2021',
     },
-    {
-      role: 'Undergraduate Reader',
-      companylogo: require('../assets/img/uci.jpg'),
-      date: 'March 2022 – PRESENT',
-    },
-    
   ]
 }
 
