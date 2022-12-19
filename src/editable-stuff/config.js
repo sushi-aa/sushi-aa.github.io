@@ -48,7 +48,7 @@ const about = {
 
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "[Github] Projects",
   gitHubUsername: "sushi-aa", 
   reposLength: 4,
   specificRepos: [],
@@ -143,7 +143,7 @@ const experiences = {
     {
       role: 'Software Development Engineering Intern',
       companylogo: require('../assets/img/amazon.png'),
-      date: 'June 2022 – PRESENT',
+      date: 'June 2022 – September 2022',
     },
     {
       role: 'Software Engineering Intern',
