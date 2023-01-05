@@ -26,15 +26,6 @@ const mainBody = {
   ],
 };
 
-// ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-
 const about = {
   show: true,
   heading: "About Me",
@@ -54,31 +45,6 @@ const repos = {
   specificRepos: [],
 };
 
-
-// Leadership SECTION
-const leadership = {
-  show: false,
-  /*
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/arushi.jpeg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/arushi.jpeg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }*/
-};
 
 // SKILLS SECTION
 const skills = {
@@ -128,7 +94,7 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Experience",
+  heading: "[CS] Experience",
   data: [
     {
       role: 'Undergraduate Research Assistant',
@@ -163,5 +129,4 @@ const experiences = {
   ]
 }
 
-
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, getInTouch, experiences };
