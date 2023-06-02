@@ -32,7 +32,7 @@ const about = {
   imageLink: require("../editable-stuff/arushi.png"),
   imageSize: 300,
   message:
-    "My name is Arushi Arora. I’m currently a 4th year Computer Science & Engineering major at UC Irvine. My main areas of interest are machine learning, algorithms, cloud computing, and sustainable engineering. Aside from CS, I enjoy playing piano, singing, and figure skating. ",
+    "My name is Arushi Arora. I recently graduated from UC Irvine with a B.S. in Computer Science & Engineering, and will soon be starting my M.S. in CS at UCI as well. My main areas of interest are machine learning, algorithms, cloud computing, and sustainable engineering. Aside from CS, I enjoy playing piano, singing, and figure skating. ",
   resume: "",
 };
 
@@ -104,7 +104,7 @@ const experiences = {
     {
       role: 'Undergraduate Reader',
       companylogo: require('../assets/img/uci.jpg'),
-      date: 'March 2022 – PRESENT',
+      date: 'March 2022 – March 2023',
     },
     {
       role: 'Software Development Engineering Intern',
