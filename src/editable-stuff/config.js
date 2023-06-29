@@ -29,7 +29,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/arushi.png"),
+  imageLink: require("../editable-stuff/arushicopy.png"),
   imageSize: 300,
   message:
     "My name is Arushi Arora. I recently graduated from UC Irvine with a B.S. in Computer Science & Engineering, and will soon be starting my M.S. in CS at UCI as well. My main areas of interest are machine learning, algorithms, cloud computing, and sustainable engineering. Aside from CS, I enjoy playing piano, singing, and figure skating. ",
@@ -41,8 +41,8 @@ const repos = {
   show: true,
   heading: "[Github] Projects",
   gitHubUsername: "sushi-aa", 
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["buzzr", "ismug", "hw2vec", "epidata-community", "ToDoList", "ML-DigitRecognition"],
 };
 
 
@@ -79,8 +79,8 @@ const skills = {
   languageSkills: [
     {name: "English", value: 100},
     {name: "Spanish", value: 75},
-    {name: "Hindi", value: 98},
-    {name: "Korean", value: 25}
+    {name: "Hindi", value: 90},
+    {name: "Mandarin", value: 25}
   ]
 };
 
