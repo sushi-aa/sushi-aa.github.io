@@ -42,7 +42,7 @@ const repos = {
   heading: "[Github] Projects",
   gitHubUsername: "sushi-aa", 
   reposLength: 0,
-  specificRepos: ["buzzr", "ismug", "hw2vec", "epidata-community", "ToDoList", "ML-DigitRecognition"],
+  specificRepos: ["buzzr", "ismug", "kaggle-work", "hw2vec", "epidata-community", "ToDoList"],
 };
 
 
