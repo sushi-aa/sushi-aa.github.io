@@ -32,7 +32,7 @@ const about = {
   imageLink: require("../editable-stuff/arushicopy.png"),
   imageSize: 300,
   message:
-    "My name is Arushi Arora. I recently graduated from UC Irvine with a B.S. in Computer Science & Engineering, and will soon be starting my M.S. in CS at UCI as well. My main areas of interest are machine learning, algorithms, cloud computing, and sustainable engineering. Aside from CS, I enjoy playing piano, singing, and figure skating. ",
+    "Hi! My name is Arushi Arora. I recently graduated from the University of California, Irvine (UCI) with a B.S. in Computer Science & Engineering, and will soon be starting my M.S. in CS at UCI. My main areas of interest are machine learning, algorithms, cloud computing, and sustainable engineering. Aside from CS, I enjoy playing piano, singing, and figure skating. ",
   resume: "",
 };
 
@@ -42,7 +42,7 @@ const repos = {
   heading: "[Github] Projects",
   gitHubUsername: "sushi-aa", 
   reposLength: 0,
-  specificRepos: ["buzzr", "ismug", "kaggle-work", "hw2vec", "epidata-community", "ToDoList"],
+  specificRepos: ["buzzr", "ismug", "kaggle-work", "hw2vec", "tensorflow-developer-certificate", "ToDoList"],
 };
 
 
@@ -61,6 +61,7 @@ const skills = {
     { name: "RISC-V/MIPS", value: 75 },
     { name: "Go", value: 60 },
     { name: "Scala", value: 60 },
+    { name: "Tensorflow", value: 65}
   ],
   softSkills: [
     { name: "Determination", value: 95 },
