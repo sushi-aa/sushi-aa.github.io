@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Arushi",
   middleName: "",
   lastName: "Arora",
-  message: " Computer Science & Engineering @ UC Irvine ",
+  message: " M.S. Computer Science @ UC Irvine ",
   icons: [
     {
       image: "fa-github",
@@ -93,6 +93,50 @@ const getInTouch = {
     "Feel free to reach out through my social media above or email me at arushia2@uci.edu",
 };
 
+
+const currently = {
+  show: true,
+  heading: "Currently",
+  data: [
+    {
+      month: "August",
+      year: "2023",
+      description: "• Completed DeepLearning.AI's Tensorflow Professional Developer Specialization!",
+      description2: "• Began another course about improving deep neural networks through hyperparameter tuning and optimization."
+    },
+    {
+      month: "July",
+      year: "2023",
+      description: "• Working on a Kaggle exercise to generate Monet-style art from a photograph using a Generative Adversarial Network (GAN).",
+      description2: "• Starting a course, offered by DeepLearning.AI through Coursera, on Tensorflow development."
+    },
+    {
+      month: "June",
+      year: "2023",
+      description: "• UCI Commencement Ceremony!",
+      description2: ""
+    },
+    {
+      month: "March",
+      year: "2023",
+      description: "• Traveled to Canada to present a research paper at SIGCSE '23",
+      description2: "• Officially completed my B.S. in Computer Science & Engineering at UCI!"
+    },
+    {
+      month: "December",
+      year: "2022",
+      description: "• Fall quarter is over. One more quarter left until I graduate!",
+      description2: "• Re-learning various pieces from my piano repertoire over winter break."
+    },
+    {
+      month: "September",
+      year: "2022",
+      description: "• Successfully completed my summer SDE internship at Amazon!",
+      description2: "• The start of my last year as an undergraduate."
+    },
+  ]
+};
+
 const experiences = {
   show: true,
   heading: "[CS] Experience",
@@ -130,4 +174,4 @@ const experiences = {
   ]
 }
 
-export { navBar, mainBody, about, repos, skills, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, getInTouch, experiences, currently };
