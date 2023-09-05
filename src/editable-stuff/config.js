@@ -99,40 +99,53 @@ const currently = {
   heading: "Currently",
   data: [
     {
+      month: "September",
+      year: "2023",
+      description: "• Completed a course on improving deep neural networks through hyperparameter tuning, optimization, and regularization.",
+      description2: "• Moving in and starting my first quarter of graduate school!",
+      description3: ""
+    },
+    {
       month: "August",
       year: "2023",
       description: "• Completed DeepLearning.AI's Tensorflow Professional Developer Specialization!",
-      description2: "• Began another course about improving deep neural networks through hyperparameter tuning and optimization."
+      description2: "• Making my way through the novel 𝘚𝘪𝘹 𝘰𝘧 𝘊𝘳𝘰𝘸𝘴 and trying to make some music.",
+      description3: "• Working on a Kaggle exercise that uses NLP to predict whether disaster tweets are real or fake."
     },
     {
       month: "July",
       year: "2023",
       description: "• Working on a Kaggle exercise to generate Monet-style art from a photograph using a Generative Adversarial Network (GAN).",
-      description2: "• Starting a course, offered by DeepLearning.AI through Coursera, on Tensorflow development."
+      description2: "• Beginning a course, offered by DeepLearning.AI through Coursera, on Tensorflow development.",
+      description3: ""
     },
     {
       month: "June",
       year: "2023",
       description: "• UCI Commencement Ceremony!",
-      description2: ""
+      description2: "",
+      description3: ""
     },
     {
       month: "March",
       year: "2023",
       description: "• Traveled to Canada to present a research paper at SIGCSE '23",
-      description2: "• Officially completed my B.S. in Computer Science & Engineering at UCI!"
+      description2: "• Officially completed my B.S. in Computer Science & Engineering at UCI!",
+      description3: ""
     },
     {
       month: "December",
       year: "2022",
       description: "• Fall quarter is over. One more quarter left until I graduate!",
-      description2: "• Re-learning various pieces from my piano repertoire over winter break."
+      description2: "• Re-learning various pieces from my piano repertoire over winter break.",
+      description3: ""
     },
     {
       month: "September",
       year: "2022",
       description: "• Successfully completed my summer SDE internship at Amazon!",
-      description2: "• The start of my last year as an undergraduate."
+      description2: "• The start of my last year as an undergraduate.",
+      description3: ""
     },
   ]
 };

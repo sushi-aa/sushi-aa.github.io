@@ -15,6 +15,7 @@ const CurrentCard = ({data}) => {
                 <hr />
                 <Card.Text>{data.description || <Skeleton count={3} />} </Card.Text>
                 <Card.Text>{data.description2} </Card.Text>
+                <Card.Text>{data.description3} </Card.Text>
                 </Card.Body>
             </Card>
         </Col>

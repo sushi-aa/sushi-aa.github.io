@@ -10,7 +10,7 @@ const Currently = ({currently}) => {
     return (  
         <section className="section">
             <Container>
-                <Jumbotron fluid id="currently" className="bg-white">
+                <Jumbotron fluid id="currently" className="bg-white m-0">  
                     <h2 className="display-4 mb-5 text-center">
                         {currently.heading}
                     </h2>
