@@ -162,14 +162,14 @@ const experiences = {
   heading: "[CS] Experience",
   data: [
     {
-      role: 'Undergraduate Research Assistant',
+      role: 'Research Assistant',
       companylogo: require('../assets/img/uci.jpg'),
       date: 'March 2021 – PRESENT',
     },
     {
-      role: 'Undergraduate Reader',
+      role: 'Teaching Assistant',
       companylogo: require('../assets/img/uci.jpg'),
-      date: 'March 2022 – March 2023',
+      date: 'September 2023 – PRESENT',
     },
     {
       role: 'Software Development Engineering Intern',
