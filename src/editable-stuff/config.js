@@ -99,12 +99,19 @@ const currently = {
   heading: "Currently",
   data: [
     {
+      month: "June",
+      year: "2024",
+      description: "• All done with my first year of grad school. Set to graduate in December 2024!",
+      description2: "• Working on 2 research projects with paper deadlines this summer...stay tuned!",
+      description3: "• Began my SDE internship at Amazon, back on my team from 2 summers ago."
+    },
+    {
       month: "December",
       year: "2023",
       description: "• First quarter of grad school complete!",
       description2: "• Worked on a project/paper about model compression techniques on BERT-like models",
       description3: ""
-    },,
+    },
     {
       month: "September",
       year: "2023",
