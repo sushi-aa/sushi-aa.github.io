@@ -32,7 +32,7 @@ const about = {
   imageLink: require("../editable-stuff/arushicopy.png"),
   imageSize: 300,
   message:
-    "Hi! My name is Arushi Arora. I graduated from the University of California, Irvine (UCI) with a B.S. in Computer Science & Engineering, and recently began my M.S. in CS at UCI. My main areas of interest are machine learning, artificial intelligence, algorithms, and cloud computing. Aside from CS, I enjoy playing piano, singing, figure skating, and reading. ",
+    "Hi! My name is Arushi Arora. I graduated from the University of California, Irvine (UCI) with a B.S. in Computer Science & Engineering, and am finishing up my M.S. in CS at UCI. My main areas of interest are machine learning, artificial intelligence, algorithms, and cloud computing. Aside from CS, I enjoy playing piano, singing, figure skating, and reading. ",
   resume: "",
 };
 
@@ -98,6 +98,13 @@ const currently = {
   show: true,
   heading: "Currently",
   data: [
+    {
+      month: "December",
+      year: "2024",
+      description: "• My last quarter of grad school :)",
+      description2: "• Two new research papers on arXiv (check out my Linkedin profile for more details)",
+      description3: "• Getting back into music with an opera class and performance!"
+    },
     {
       month: "June",
       year: "2024",
