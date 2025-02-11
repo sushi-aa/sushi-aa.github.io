@@ -32,7 +32,7 @@ const about = {
   imageLink: require("../editable-stuff/arushicopy.png"),
   imageSize: 300,
   message:
-    "Hi! My name is Arushi Arora. I graduated from the University of California, Irvine (UCI) with a B.S. in Computer Science & Engineering and an M.S. in CS. I recently began working as a software engineer at Amazon Lab126. My main areas of interest are machine learning, artificial intelligence, algorithms, and cloud computing. Aside from CS, I enjoy playing piano, singing, figure skating, and reading. ",
+    "Hi! My name is Arushi Arora. I graduated from the University of California, Irvine (UCI) with a B.S. in Computer Science & Engineering and an M.S. in Computer Science. I recently began working as a software engineer at Amazon Lab126. My main areas of interest are machine learning, artificial intelligence, algorithms, and cloud computing. Aside from CS, I enjoy playing piano, singing, figure skating, and reading. ",
   resume: "",
 };
 
@@ -102,7 +102,7 @@ const currently = {
       month: "February",
       year: "2025",
       description: "• Happy to be joining Kindle @ Amazon Lab126!",
-      description2: "• Resuming piano classes with my amazing teacher <a href='https://arts4all.org/music-school/private-music-lessons/faculty/temirzhan-yerzhanov/' target='_blank'>Temirzhan</a> through some Rachmaninoff and Schubert",
+      description2: "• Playing some Rachmaninoff and Schubert in resumed piano classes with my amazing teacher <a href='https://arts4all.org/music-school/private-music-lessons/faculty/temirzhan-yerzhanov/' target='_blank'>Temirzhan</a>",
       description3: ""
     },
     {
@@ -129,14 +129,14 @@ const currently = {
     {
       month: "September",
       year: "2023",
-      description: "• Completed a course on improving deep neural networks through hyperparameter tuning, optimization, and regularization.",
+      description: "• Completed a course (<a href='https://www.coursera.org/account/accomplishments/certificate/PD8PJXRW5QQP?trk=public_profile_see-credential' target='_blank'>credential</a>) on improving deep neural networks through hyperparameter tuning, optimization, and regularization.",
       description2: "• Moving in and starting my first quarter of graduate school!",
       description3: ""
     },
     {
       month: "August",
       year: "2023",
-      description: "• Completed DeepLearning.AI's Tensorflow Professional Developer Specialization!",
+      description: "• Completed DeepLearning.AI's Tensorflow Professional Developer Specialization! (<a href='https://www.coursera.org/account/accomplishments/specialization/certificate/XWTHT7M8VMF8?trk=public_profile_see-credential' target='_blank'>credential</a>)",
       description2: "• Making my way through the novel 𝘚𝘪𝘹 𝘰𝘧 𝘊𝘳𝘰𝘸𝘴 and trying to make some music.",
       description3: "• Working on a Kaggle exercise that uses NLP to predict whether disaster tweets are real or fake."
     },
@@ -180,17 +180,27 @@ const currently = {
 
 const experiences = {
   show: true,
-  heading: "[CS] Experience",
+  heading: "Experience",
   data: [
+    {
+      role: 'Software Development Engineer',
+      companylogo: require('../assets/img/amazon.png'),
+      date: 'February 2025 – PRESENT',
+    },
     {
       role: 'Research Assistant',
       companylogo: require('../assets/img/uci.jpg'),
-      date: 'March 2021 – PRESENT',
+      date: 'March 2021 – December 2024',
+    },
+    {
+      role: 'Software Development Engineering Intern',
+      companylogo: require('../assets/img/amazon.png'),
+      date: 'June 2024 – September 2024',
     },
     {
       role: 'Teaching Assistant',
       companylogo: require('../assets/img/uci.jpg'),
-      date: 'September 2023 – PRESENT',
+      date: 'September 2023 – December 2024',
     },
     {
       role: 'Software Development Engineering Intern',
@@ -202,16 +212,11 @@ const experiences = {
       companylogo: require('../assets/img/netapp.jpg'),
       date: 'June 2021 – September 2021',
     },
-    {
-      role: 'Online Private Lesson Instructor',
-      companylogo: require('../assets/img/idtech.jpg'),
-      date: 'June 2020 – June 2021',
-    },
-    {
-      role: 'Software & Data Engineering Intern',
-      companylogo: require('../assets/img/epidata.jpg'),
-      date: 'February 2021 – May 2021',
-    },
+    // {
+    //   role: 'Software & Data Engineering Intern',
+    //   companylogo: require('../assets/img/epidata.jpg'),
+    //   date: 'February 2021 – May 2021',
+    // },
   ]
 }
 
