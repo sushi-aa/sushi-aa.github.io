@@ -13,9 +13,9 @@ const CurrentCard = ({data}) => {
                 <Card.Body>
                 <Card.Title as="h5">{data.month + " " + data.year || <Skeleton />} </Card.Title>
                 <hr />
-                <Card.Text>{data.description || <Skeleton count={3} />} </Card.Text>
-                <Card.Text>{data.description2} </Card.Text>
-                <Card.Text>{data.description3} </Card.Text>
+                <Card.Text dangerouslySetInnerHTML={{ __html: data.description || '' }}></Card.Text>
+                <Card.Text dangerouslySetInnerHTML={{ __html: data.description2 || '' }}></Card.Text>
+                <Card.Text dangerouslySetInnerHTML={{ __html: data.description3 || '' }}></Card.Text>
                 </Card.Body>
             </Card>
         </Col>

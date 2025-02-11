@@ -32,7 +32,7 @@ const about = {
   imageLink: require("../editable-stuff/arushicopy.png"),
   imageSize: 300,
   message:
-    "Hi! My name is Arushi Arora. I graduated from the University of California, Irvine (UCI) with a B.S. in Computer Science & Engineering, and am finishing up my M.S. in CS at UCI. My main areas of interest are machine learning, artificial intelligence, algorithms, and cloud computing. Aside from CS, I enjoy playing piano, singing, figure skating, and reading. ",
+    "Hi! My name is Arushi Arora. I graduated from the University of California, Irvine (UCI) with a B.S. in Computer Science & Engineering and an M.S. in CS. I recently began working as a software engineer at Amazon Lab126. My main areas of interest are machine learning, artificial intelligence, algorithms, and cloud computing. Aside from CS, I enjoy playing piano, singing, figure skating, and reading. ",
   resume: "",
 };
 
@@ -99,10 +99,17 @@ const currently = {
   heading: "Currently",
   data: [
     {
+      month: "February",
+      year: "2025",
+      description: "• Happy to be joining Kindle @ Amazon Lab126!",
+      description2: "• Resuming piano classes with my amazing teacher <a href='https://arts4all.org/music-school/private-music-lessons/faculty/temirzhan-yerzhanov/' target='_blank'>Temirzhan</a> through some Rachmaninoff and Schubert",
+      description3: ""
+    },
+    {
       month: "December",
       year: "2024",
       description: "• My last quarter of grad school :)",
-      description2: "• Two new research papers on arXiv (check out my Linkedin profile for more details)",
+      description2: "• Two new research papers on arXiv (<a href='https://arxiv.org/abs/2411.14655' target='_blank'>concept inventory</a> and <a href='https://arxiv.org/abs/2411.18790' target='_blank'>schulze voting</a>)",
       description3: "• Getting back into music with an opera class and performance!"
     },
     {
@@ -110,7 +117,7 @@ const currently = {
       year: "2024",
       description: "• All done with my first year of grad school. Set to graduate in December 2024!",
       description2: "• Working on 2 research projects with paper deadlines this summer...stay tuned!",
-      description3: "• Began my SDE internship at Amazon, back on my team from 2 summers ago."
+      description3: "• Began my SDE internship at Amazon, back on <a href='https://www.goodreads.com/' target='_blank'>my team</a> from 2 summers ago."
     },
     {
       month: "December",
