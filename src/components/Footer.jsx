@@ -29,7 +29,7 @@ const Footer = (props) => {
         </a>
         <p>
           <small className="text-muted">
-            also check out <a href='https://kxvin.com' target='_blank'>this website </a> ♡
+            <a href='https://kxvin.com' target='_blank'>K ♡</a>
           </small>
         </p>
       </Container>
