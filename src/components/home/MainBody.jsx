@@ -2,6 +2,7 @@ import React from "react";
 import Typist from "react-typist";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import { Card } from "react-bootstrap";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -37,6 +38,15 @@ const MainBody = React.forwardRef(
               </a>
             ))}
           </div>
+          <a
+            className="btn btn-outline-light btn-lg "
+            href="#currently"
+            role="button"
+            aria-label="See what I'm up to"
+          >
+            My Updates
+          </a>
+          <a> </a>
           <a
             className="btn btn-outline-light btn-lg "
             href="#aboutme"

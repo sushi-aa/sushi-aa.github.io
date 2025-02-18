@@ -56,10 +56,10 @@ const skills = {
     { name: "C++", value: 75 },
     { name: "VHDL", value: 80 },
     { name: "Verilog", value: 80 },
-    { name: "HTML/CSS", value: 83 },
+    { name: "HTML/CSS", value: 80 },
     { name: "Javascript", value: 75 },
-    { name: "RISC-V/MIPS", value: 75 },
-    { name: "Go", value: 60 },
+    { name: "RISC-V/MIPS", value: 70 },
+    { name: "Go", value: 70 },
     { name: "Scala", value: 60 },
     { name: "Tensorflow", value: 65}
   ],
@@ -67,7 +67,7 @@ const skills = {
     { name: "Determination", value: 95 },
     { name: "Collaboration", value: 95 },
     { name: "Leadership", value: 80 },
-    { name: "Adaptability", value: 90 },
+    { name: "Adaptability", value: 95 },
     { name: "Creativity", value: 75 },
     { name: "Communication", value: 95 },
   ],
@@ -157,7 +157,7 @@ const currently = {
     {
       month: "March",
       year: "2023",
-      description: "• Traveled to Canada to present a research paper at SIGCSE '23",
+      description: "• Traveled to Canada to present <a href='https://dl.acm.org/doi/10.1145/3545945.3569820' target='_blank'>my research paper</a> at SIGCSE '23",
       description2: "• Officially completed my B.S. in Computer Science & Engineering at UCI!",
       description3: ""
     },
