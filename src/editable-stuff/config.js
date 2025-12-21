@@ -99,10 +99,24 @@ const currently = {
   heading: "Currently",
   data: [
     {
+      month: "December",
+      year: "2025",
+      description: "• Successfully helped launch color writing features for the new <a href='https://www.amazon.com/Amazon-Kindle-Scribe-Colorsoft/dp/B0DWRBVDN6' target='_blank'>Kindle Scribe Colorsoft</a> :)",
+      description2: "• Playing more golf than I ever thought I would...",
+      description3: "• A very eventful year comes to an end. Notable trips include Hawaii, Portland, San Diego, Alaska, Wisconsin, Pebble Beach, & Point Reyes!"
+    },
+    {
+      month: "October",
+      year: "2025",
+      description: "• Took a small trip to Wisconsin (first time) and ate so much cheese",
+      description2: "• In the midst of incredibly busy work weeks to get these devices ready for launch...coming soon!",
+      description3: ""
+    },
+    {
       month: "February",
       year: "2025",
-      description: "• Happy to be joining Kindle @ Amazon Lab126!",
-      description2: "• Playing some Rachmaninoff and Schubert in resumed piano classes with my amazing teacher <a href='https://arts4all.org/music-school/private-music-lessons/faculty/temirzhan-yerzhanov/' target='_blank'>Temirzhan</a>",
+      description: "• Happy to be joining Kindle @ Amazon Lab126 as a full-time software engineer!",
+      description2: "• Playing some Rachmaninoff, Schubert, and Chopin in resumed piano classes with my amazing teacher <a href='https://arts4all.org/music-school/private-music-lessons/faculty/temirzhan-yerzhanov/' target='_blank'>Temirzhan</a>",
       description3: ""
     },
     {
