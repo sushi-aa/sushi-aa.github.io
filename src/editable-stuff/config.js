@@ -32,7 +32,7 @@ const about = {
   imageLink: require("../editable-stuff/arushicopy.png"),
   imageSize: 300,
   message:
-    "Hi! My name is Arushi Arora. I graduated from the University of California, Irvine (UCI) with a B.S. in Computer Science & Engineering and an M.S. in Computer Science. I recently began working as a software engineer at Amazon Lab126. My main areas of interest are machine learning, artificial intelligence, algorithms, and cloud computing. Aside from CS, I enjoy playing piano, singing, figure skating, and reading. ",
+    "Hi! My name is Arushi Arora. I graduated from the University of California, Irvine (UCI) with a B.S. in Computer Science & Engineering and an M.S. in Computer Science. I recently began working as a software engineer at Google after working at Amazon for just over a year. My main areas of interest are machine learning, artificial intelligence, and algorithms. Beyond computer science, I’m a lifelong pianist who also enjoys singing, golf, and figure skating. ",
   resume: "",
 };
 
@@ -76,6 +76,7 @@ const skills = {
     {name: "Voice", value: 95},
     {name: "Figure Skating", value: 70},
     {name: "Swimming", value: 70},
+    {name: "Golf", value: 50},
   ],
   languageSkills: [
     {name: "English", value: 100},
@@ -98,6 +99,13 @@ const currently = {
   show: true,
   heading: "Currently",
   data: [
+    {
+      month: "February",
+      year: "2026",
+      description: "• Parted ways with my wonderful team at Amazon to join Google, and excited for what's ahead!",
+      description2: "• Went back to visit Irvine for the first time since graduating",
+      description3: ""
+    },
     {
       month: "December",
       year: "2025",
@@ -196,6 +204,11 @@ const experiences = {
   show: true,
   heading: "Experience",
   data: [
+    {
+      role: 'Software Development Engineer',
+      companylogo: require('../assets/img/google.png'),
+      date: 'February 2026 – PRESENT',
+    },
     {
       role: 'Software Development Engineer',
       companylogo: require('../assets/img/amazon.png'),

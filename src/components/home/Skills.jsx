@@ -41,6 +41,17 @@ function Skills({ heading, hardSkills, softSkills, otherSkills, languageSkills }
 
           <Tab
             tabClassName="skills-tab lead"
+            eventKey="other-skills"
+            title="Hobbies"
+          >
+             <Row className="pt-3 px-1">
+              <SkillsTab skills={otherSkills} isScrolled={isScrolled} />
+            </Row>
+          </Tab>
+
+
+          <Tab
+            tabClassName="skills-tab lead"
             eventKey="soft-skills"
             title="Soft Skills"
           >
@@ -58,17 +69,6 @@ function Skills({ heading, hardSkills, softSkills, otherSkills, languageSkills }
               <SkillsTab skills={languageSkills} isScrolled={isScrolled} />
             </Row>
           </Tab>
-          
-          <Tab
-            tabClassName="skills-tab lead"
-            eventKey="other-skills"
-            title="Other"
-          >
-            <Row className="pt-3 px-1">
-              <SkillsTab skills={otherSkills} isScrolled={isScrolled} />
-            </Row>
-          </Tab>
-
           
         </Tabs>
       </Container>
