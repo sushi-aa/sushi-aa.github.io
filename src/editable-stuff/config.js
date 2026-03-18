@@ -212,12 +212,7 @@ const experiences = {
     {
       role: 'Software Development Engineer',
       companylogo: require('../assets/img/amazon.png'),
-      date: 'February 2025 – PRESENT',
-    },
-    {
-      role: 'Research Assistant',
-      companylogo: require('../assets/img/uci.jpg'),
-      date: 'March 2021 – December 2024',
+      date: 'February 2025 – February 2026',
     },
     {
       role: 'Software Development Engineering Intern',
