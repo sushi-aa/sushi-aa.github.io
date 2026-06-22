@@ -100,6 +100,13 @@ const currently = {
   heading: "Currently",
   data: [
     {
+      month: "May",
+      year: "2026",
+      description: "• Already 3 months with my new team at Google. Learning lots about Gemini and AAE/AAOS.",
+      description2: "• Used socal golf courses as an excuse to also visit Disneyland :)",
+      description3: "• Google  IO!"
+    },
+    {
       month: "February",
       year: "2026",
       description: "• Parted ways with my wonderful team at Amazon to join Google, and excited for what's ahead!",
